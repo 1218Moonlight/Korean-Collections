@@ -16,7 +16,7 @@ export default function FirstBar() {
     const classes = UseStyles();
     return (
         <Toolbar className={classes.toolbar}>
-            <h4>Left</h4>
+            <h2>Left</h2>
             <Typography
                 component="h2"
                 variant="h5"
@@ -27,7 +27,7 @@ export default function FirstBar() {
             >
                 Title
             </Typography>
-            <h4>Right</h4>
+            <h2>Right</h2>
         </Toolbar>
     )
 }

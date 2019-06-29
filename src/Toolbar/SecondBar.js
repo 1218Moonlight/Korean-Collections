@@ -10,21 +10,21 @@ const UseStyles = makeStyles(theme => ({
     },
     toolbarLink: {
         padding: theme.spacing(1),
-        flexShrink: 0,
+        flexShrink: 1,
     }
 }));
 
 const sections = [
-    'Technology',
-    'Design',
-    'Culture',
-    'Business',
-    'Politics',
-    'Opinion',
-    'Science',
-    'Health',
-    'Style',
-    'Travel',
+    'One',
+    'Two',
+    'Three',
+    'Four',
+    'Five',
+    'Six',
+    'Seven',
+    'Eight',
+    'Nine',
+    'Ten',
 ];
 
 export default function SecondBar() {
@@ -37,7 +37,7 @@ export default function SecondBar() {
                     noWrap
                     key={section}
                     variant="body2"
-                    href="#"
+                    href={section}
                     className={classes.toolbarLink}
                 >
                     {section}
