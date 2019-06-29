@@ -20,11 +20,11 @@ const sections = [
     'Three',
     'Four',
     'Five',
-    'Six',
-    'Seven',
-    'Eight',
-    'Nine',
-    'Ten',
+    // 'Six',
+    // 'Seven',
+    // 'Eight',
+    // 'Nine',
+    // 'Travel',
 ];
 
 export default function SecondBar() {

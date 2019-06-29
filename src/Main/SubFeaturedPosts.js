@@ -31,8 +31,14 @@ const featuredPosts = [
             'This is a wider card with supporting text below as a natural lead-in to additional content.',
     },
     {
-        title: 'Post title',
+        title: 'Post title1',
         date: 'Nov 11',
+        description:
+            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+    },
+    {
+        title: 'Post title2',
+        date: 'Nov 10',
         description:
             'This is a wider card with supporting text below as a natural lead-in to additional content.',
     },
@@ -51,8 +57,8 @@ export default function SubFeaturedPosts() {
                                     <Typography component={"h2"} variant={"h5"}>
                                         {post.title}
                                     </Typography>
-                                    <Typography variant={"subtitle1"} color={"textSecondary"}>
-                                        {post.data}
+                                    <Typography variant={"subtitle1"} color="textSecondary">
+                                        {post.date}
                                     </Typography>
                                     <Typography variant={"subtitle1"} paragraph>
                                         {post.description}
