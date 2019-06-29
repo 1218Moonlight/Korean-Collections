@@ -4,6 +4,7 @@ import Container from '@material-ui/core/Container';
 
 import ToolbarBase from './Toolbar/Base'
 import MainBase from './Main/Base'
+import FooterBase from './Footer/Base'
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <Container maxWidth={"lg"}>
                 <ToolbarBase/>
                 <MainBase/>
+                <FooterBase/>
             </Container>
         </React.Fragment>
     );
