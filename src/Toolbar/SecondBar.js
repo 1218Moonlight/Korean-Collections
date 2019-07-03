@@ -37,7 +37,8 @@ export default function SecondBar() {
                     noWrap
                     key={section}
                     variant="body2"
-                    href={section}
+                    // href={section}
+                    href={"#"}
                     className={classes.toolbarLink}
                 >
                     {section}

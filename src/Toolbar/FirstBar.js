@@ -1,7 +1,7 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
+import {makeStyles} from '@material-ui/core/styles';
 import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link';
 
 const UseStyles = makeStyles(theme => ({
     toolbar: {
@@ -16,18 +16,8 @@ export default function FirstBar() {
     const classes = UseStyles();
     return (
         <Toolbar className={classes.toolbar}>
-            <h2>Left</h2>
-            <Typography
-                component="h2"
-                variant="h5"
-                color="inherit"
-                align="center"
-                noWrap
-                className={classes.toolbarTitle}
-            >
-                Korean Collections
-            </Typography>
-            <h2>Right</h2>
+            <Link href={"/"} variant={"h5"} color={"inherit"} className={classes.toolbarTitle} align={"center"}
+                  noWrap>Korean Collections</Link>
         </Toolbar>
     )
 }
