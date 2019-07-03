@@ -1,31 +1,45 @@
 import React from 'react'
 import { makeStyles } from '@material-ui/core/styles';
-import CardActionArea from '@material-ui/core/CardActionArea';
 import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
-import Typography from '@material-ui/core/Typography';
-import Hidden from '@material-ui/core/Hidden';
 import CardMedia from '@material-ui/core/CardMedia'
+import Typography from '@material-ui/core/Typography'
 
 const useStyles = makeStyles(theme => ({
     mainGrid: {
         marginTop: theme.spacing(3),
     },
     card: {
-        display: 'flex',
+        maxWidth: 'auto',
     },
-    cardDetails: {
-        flex: 1,
-    },
-    cardMedia: {
-        width: 160,
-    },
+    media: {
+        height: 0,
+        paddingTop: '56.25%'
+    }
 }));
 
 const featuredPosts = [
     {
-        title: 'Featured post',
+        title: 'Featured post1',
+        date: 'Nov 16',
+        description:
+            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+    },
+    {
+        title: 'Featured post2',
+        date: 'Nov 12',
+        description:
+            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+    },
+    {
+        title: 'Featured post3',
+        date: 'Nov 12',
+        description:
+            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+    },
+    {
+        title: 'Featured post4',
         date: 'Nov 12',
         description:
             'This is a wider card with supporting text below as a natural lead-in to additional content.',
@@ -42,6 +56,18 @@ const featuredPosts = [
         description:
             'This is a wider card with supporting text below as a natural lead-in to additional content.',
     },
+    {
+        title: 'Post title3',
+        date: 'Nov 11',
+        description:
+            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+    },
+    {
+        title: 'Post title4',
+        date: 'Nov 10',
+        description:
+            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+    },
 ];
 
 export default function SubFeaturedPosts() {
@@ -50,33 +76,24 @@ export default function SubFeaturedPosts() {
         <Grid container spacing={4} className={classes.mainGrid}>
             {featuredPosts.map(post => (
                 <Grid item key={post.title} xs={12} md={6}>
-                    <CardActionArea component={"a"} href={"#"}>
                         <Card className={classes.card}>
-                            <div className={classes.cardDetails}>
-                                <CardContent>
-                                    <Typography component={"h2"} variant={"h5"}>
-                                        {post.title}
-                                    </Typography>
-                                    <Typography variant={"subtitle1"} color="textSecondary">
-                                        {post.date}
-                                    </Typography>
-                                    <Typography variant={"subtitle1"} paragraph>
-                                        {post.description}
-                                    </Typography>
-                                    <Typography variant={"subtitle1"} color={"primary"}>
-                                        Continue reading...
-                                    </Typography>
-                                </CardContent>
-                            </div>
-                            <Hidden xsDown>
-                                <CardMedia
-                                    className={classes.cardMedia}
-                                    image={"https://source.unsplash.com/random"}
-                                    title={"Image title"}
-                                />
-                            </Hidden>
+                            <CardMedia
+                                className={classes.media}
+                                image={"https://source.unsplash.com/random"}
+                                title={post.title}
+                            />
+                            <CardContent>
+                                <Typography gutterBottom variant={'h5'} component={'h2'}>
+                                    {post.title}
+                                </Typography>
+                                <Typography variant={"subtitle1"} color="textSecondary">
+                                    {post.date}
+                                </Typography>
+                                <Typography variant={"subtitle1"} color="textSecondary">
+                                    {post.description}
+                                </Typography>
+                            </CardContent>
                         </Card>
-                    </CardActionArea>
                 </Grid>
             ))}
         </Grid>
