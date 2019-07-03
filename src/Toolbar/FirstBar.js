@@ -16,7 +16,7 @@ export default function FirstBar() {
     const classes = UseStyles();
     return (
         <Toolbar className={classes.toolbar}>
-            <Link href={"/"} variant={"h5"} color={"inherit"} className={classes.toolbarTitle} align={"center"}
+            <Link href={"/Korean-Collections"} variant={"h5"} color={"inherit"} className={classes.toolbarTitle} align={"center"}
                   noWrap>Korean Collections</Link>
         </Toolbar>
     )
