@@ -25,7 +25,7 @@ export default function FirstBar() {
                 noWrap
                 className={classes.toolbarTitle}
             >
-                Title
+                Korean Collections
             </Typography>
             <h2>Right</h2>
         </Toolbar>

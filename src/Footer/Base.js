@@ -15,7 +15,6 @@ export default function FooterBase() {
     const classes = useStyles();
     return (
         <React.Fragment>
-
             <footer className={classes.footer}>
                 <Container maxWidth={"lg"}>
                     <Typography variant={"h6"} align={"center"} gutterBottom>
