@@ -1,18 +1,12 @@
 import React from 'react'
-import { makeStyles } from '@material-ui/core/styles';
+import {withStyles} from '@material-ui/core/styles';
+import {styles} from '../Styles/FooterBase'
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 
-const useStyles = makeStyles(theme => ({
-    footer: {
-        backgroundColor: theme.palette.background.paper,
-        marginTop: theme.spacing(8),
-        padding: theme.spacing(6, 0),
-    },
-}));
 
-export default function FooterBase() {
-    const classes = useStyles();
+export default withStyles(styles)(function FooterBase(props) {
+    const {classes} = props;
     return (
         <React.Fragment>
             <footer className={classes.footer}>
@@ -28,4 +22,4 @@ export default function FooterBase() {
 
         </React.Fragment>
     )
-}
+})

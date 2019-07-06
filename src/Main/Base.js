@@ -1,7 +1,6 @@
 import React from 'react'
 import MainFeaturedPost from './MainFeaturedPost'
 import SubFeaturedPost from './SubFeaturedPosts'
-import SubFeaturedPostPagination from './SubFeaturedPostsPagination'
 
 export default function MainBase() {
     return (
@@ -9,7 +8,6 @@ export default function MainBase() {
             <main>
                 <MainFeaturedPost/>
                 <SubFeaturedPost/>
-                <SubFeaturedPostPagination/>
             </main>
         </React.Fragment>
     )

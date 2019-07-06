@@ -1,101 +1,72 @@
-import React from 'react'
-import { makeStyles } from '@material-ui/core/styles';
+import React, {Component} from 'react'
+import {withStyles} from '@material-ui/core/styles';
+import {styles} from '../Styles/SubFeaturedPosts'
+import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia'
 import Typography from '@material-ui/core/Typography'
+import {posts} from '../Contents/SubFeaturedPost'
 
-const useStyles = makeStyles(theme => ({
-    mainGrid: {
-        marginTop: theme.spacing(3),
-    },
-    card: {
-        maxWidth: 'auto',
-    },
-    media: {
-        height: 0,
-        paddingTop: '56.25%'
-    }
-}));
+export default withStyles(styles)(class SubFeaturedPostsPagination extends Component {
+    state = {
+        page: 1,
+        start: 0,
+        end: 4
+    };
 
-const featuredPosts = [
-    {
-        title: 'Featured post1',
-        date: 'Nov 16',
-        description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    },
-    {
-        title: 'Featured post2',
-        date: 'Nov 12',
-        description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    },
-    {
-        title: 'Featured post3',
-        date: 'Nov 12',
-        description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    },
-    {
-        title: 'Featured post4',
-        date: 'Nov 12',
-        description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    },
-    {
-        title: 'Post title1',
-        date: 'Nov 11',
-        description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    },
-    {
-        title: 'Post title2',
-        date: 'Nov 10',
-        description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    },
-    {
-        title: 'Post title3',
-        date: 'Nov 11',
-        description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    },
-    {
-        title: 'Post title4',
-        date: 'Nov 10',
-        description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
-    },
-];
+    handleChangeIndexUp = () => {
+        this.setState({
+            page: this.state.page + 1,
+            start: this.state.start + 4,
+            end: this.state.end + 4
+        })
+    };
 
-export default function SubFeaturedPosts() {
-    const classes = useStyles();
-    return (
-        <Grid container spacing={4} className={classes.mainGrid}>
-            {featuredPosts.map(post => (
-                <Grid item key={post.title} xs={12} md={6}>
-                        <Card className={classes.card}>
-                            <CardMedia
-                                className={classes.media}
-                                image={"https://source.unsplash.com/random"}
-                                title={post.title}
-                            />
-                            <CardContent>
-                                <Typography gutterBottom variant={'h5'} component={'h2'}>
-                                    {post.title}
-                                </Typography>
-                                <Typography variant={"subtitle1"} color="textSecondary">
-                                    {post.date}
-                                </Typography>
-                                <Typography variant={"subtitle1"} color="textSecondary">
-                                    {post.description}
-                                </Typography>
-                            </CardContent>
-                        </Card>
+    handleChangeIndexDown = () => {
+        this.setState({
+            page: this.state.page - 1,
+            start: this.state.start - 4,
+            end: this.state.end - 4
+        })
+    };
+
+    render() {
+        const {classes} = this.props;
+        const target = posts.slice(this.state.start, this.state.end);
+        return (
+            <div>
+                <Grid container spacing={4}>
+                    {target.map(post => (
+                        <Grid item key={post.title} xs={12} md={6}>
+                            <Card>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={"https://source.unsplash.com/random"}
+                                    title={post.title}
+                                />
+                                <CardContent>
+                                    <Typography gutterBottom variant={'h5'} component={'h2'}>
+                                        {post.title}
+                                    </Typography>
+                                    <Typography variant={"subtitle1"} color="textSecondary">
+                                        {post.date}
+                                    </Typography>
+                                    <Typography variant={"subtitle1"} color="textSecondary">
+                                        {post.description}
+                                    </Typography>
+                                </CardContent>
+                            </Card>
+                        </Grid>
+                    ))}
                 </Grid>
-            ))}
-        </Grid>
-    )
-}
+
+                <div align="center">
+                <Button onClick={this.handleChangeIndexDown} className={classes.button} color={"primary"} variant="contained">befor</Button>
+                <Button onClick={this.handleChangeIndexUp} className={classes.button} color={"primary"} variant="contained">next</Button>
+                </div>
+            </div>
+        )
+    }
+})

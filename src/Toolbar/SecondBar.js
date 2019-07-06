@@ -1,18 +1,8 @@
 import React from 'react';
-import {makeStyles} from '@material-ui/core/styles';
+import {withStyles} from '@material-ui/core/styles';
+import {styles} from '../Styles/SecondBar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Link from '@material-ui/core/Link'
-
-const UseStyles = makeStyles(theme => ({
-    toolbarSecondary: {
-        justifyContent: 'space-between',
-        overflowX: 'auto',
-    },
-    toolbarLink: {
-        padding: theme.spacing(1),
-        flexShrink: 1,
-    }
-}));
 
 const sections = [
     'One',
@@ -27,8 +17,8 @@ const sections = [
     // 'Travel',
 ];
 
-export default function SecondBar() {
-    const classes = UseStyles();
+export default withStyles(styles)(function SecondBar(props) {
+    const {classes} = props;
     return (
         <Toolbar component="nav" variant="dense" className={classes.toolbarSecondary}>
             {sections.map(section => (
@@ -46,4 +36,4 @@ export default function SecondBar() {
             ))}
         </Toolbar>
     )
-}
+})
