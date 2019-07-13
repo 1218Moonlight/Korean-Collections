@@ -3,7 +3,12 @@ export const styles = theme => ({
         display: 'flex',
         flexWrap: 'wrap',
         borderTop: `1px solid ${theme.palette.divider}`,
-        marginTop: theme.spacing(2),
+        borderBottom: `1px solid ${theme.palette.divider}`,
+        marginTop: theme.spacing(4),
+        padding: theme.spacing(2)
+    },
+    containerTitle:{
+      flex:1
     },
     textField: {
         marginLeft: theme.spacing(1),
