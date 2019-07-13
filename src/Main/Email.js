@@ -6,6 +6,19 @@ import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 
 export default withStyles(styles)(class Email extends Component {
+    // getOffset = (element) => {
+    //     const box = element.getBoundingClientRect();
+    //     return {
+    //         top: (box.top + window.pageYOffset) - document.documentElement.clientTop - 50,
+    //         left: (box.left + window.pageXOffset) - document.documentElement.clientLeft
+    //     }
+    // };
+    // setFocus = (panel) => {
+    //     event.preventDefault();
+    //     const panelPosition = this.getOffset(panel);
+    //     document.body.scrollTop = panelPosition.top;
+    //     Panel.handleOpenPanel(panel.nextElementSibling.id);
+    // };
     render() {
         const {classes} = this.props;
         return (
@@ -23,8 +36,7 @@ export default withStyles(styles)(class Email extends Component {
                 </div>
                 <div>
                     {/*https://webdesign.tutsplus.com/tutorials/quick-tip-add-a-formspree-form-to-your-static-sites--cms-23870*/}
-                    <form noValidate autoComplete={"off"}
-                          action="https://formspree.io/1218moonlight@gmail.com" method="POST">
+                    <form noValidate autoComplete={"off"} action="https://formspree.io/1218moonlight@gmail.com" method="POST">
 
                         <TextField
                             disabled
@@ -32,7 +44,7 @@ export default withStyles(styles)(class Email extends Component {
                             label="To"
                             defaultValue="1218Moonlight@gmail.com"
                             className={classes.textField}
-                            fullWidth={"true"}
+                            fullWidth={true}
                             margin="normal"
                             variant="outlined"
                             helperText="Email to be received"
@@ -47,7 +59,7 @@ export default withStyles(styles)(class Email extends Component {
                             placeholder={"Your email"}
                             name="_replyto"
                             autoComplete="email"
-                            fullWidth={"true"}
+                            fullWidth={true}
                             margin="normal"
                             variant="outlined"
                             helperText="Email to send"
@@ -61,7 +73,7 @@ export default withStyles(styles)(class Email extends Component {
                             multiline
                             rows="4"
                             className={classes.textField}
-                            fullWidth={"true"}
+                            fullWidth={true}
                             margin="normal"
                             variant="outlined"
                             helperText={"enquiry details"}
@@ -72,11 +84,12 @@ export default withStyles(styles)(class Email extends Component {
                         <input type={"text"} name={"_gotcha"} className={classes.gotcha}/>
 
                         {/*<input type={"submit"} value={"Send"} className={classes.submit}/>*/}
-                        <Button className={classes.submit} type={"submit"} fullWidth={"true"} color={"primary"}
+                        <Button className={classes.submit} type={"submit"} fullWidth={true}  color={"primary"}
                                 variant="contained">Send</Button>
 
                         {/*<input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />*/}
                     </form>
+                    {/*<Button onClick={() => this.setForcus()}>이동</Button>*/}
                 </div>
             </React.Fragment>
         )
