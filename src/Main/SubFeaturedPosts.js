@@ -13,22 +13,22 @@ export default withStyles(styles)(class SubFeaturedPostsPagination extends Compo
     state = {
         page: 1,
         start: 0,
-        end: 4
+        end: 8
     };
 
     handleChangeIndexUp = () => {
         this.setState({
             page: this.state.page + 1,
-            start: this.state.start + 4,
-            end: this.state.end + 4
+            start: this.state.start + 8,
+            end: this.state.end + 8
         })
     };
 
     handleChangeIndexDown = () => {
         this.setState({
             page: this.state.page - 1,
-            start: this.state.start - 4,
-            end: this.state.end - 4
+            start: this.state.start - 8,
+            end: this.state.end - 8
         })
     };
 
@@ -39,7 +39,7 @@ export default withStyles(styles)(class SubFeaturedPostsPagination extends Compo
             <div>
                 <Grid container spacing={4}>
                     {target.map(post => (
-                        <Grid item key={post.title} xs={12} md={6}>
+                        <Grid item key={post.title} xs={6} md={3}>
                             <Card>
                                 <CardMedia
                                     className={classes.media}
