@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a950795a-3117-4176-ad40-ba3f7f5f7ace" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Contents/SubFeaturedPost.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Styles/FirstBar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Styles/FooterBase.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Styles/MainFeaturedPost.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Styles/SecondBar.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Styles/SubFeaturedPosts.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Footer/Base.js" afterPath="$PROJECT_DIR$/src/Footer/Base.js" />
-      <change beforePath="$PROJECT_DIR$/src/Main/Base.js" afterPath="$PROJECT_DIR$/src/Main/Base.js" />
-      <change beforePath="$PROJECT_DIR$/src/Main/MainFeaturedPost.js" afterPath="$PROJECT_DIR$/src/Main/MainFeaturedPost.js" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
+      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change beforePath="$PROJECT_DIR$/src/Main/Email.js" afterPath="$PROJECT_DIR$/src/Main/Email.js" />
       <change beforePath="$PROJECT_DIR$/src/Main/SubFeaturedPosts.js" afterPath="$PROJECT_DIR$/src/Main/SubFeaturedPosts.js" />
-      <change beforePath="$PROJECT_DIR$/src/Main/SubFeaturedPostsPagination.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Toolbar/FirstBar.js" afterPath="$PROJECT_DIR$/src/Toolbar/FirstBar.js" />
-      <change beforePath="$PROJECT_DIR$/src/Toolbar/SecondBar.js" afterPath="$PROJECT_DIR$/src/Toolbar/SecondBar.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,25 +19,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="SubFeaturedPosts.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main/SubFeaturedPosts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+            <state relative-caret-position="375">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SubFeaturedPosts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Styles/SubFeaturedPosts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -73,6 +54,10 @@
       <find>make</find>
       <find>useStyle</find>
       <find>useStyles</find>
+      <find>button</find>
+      <find>style</find>
+      <find>prima</find>
+      <find>fullWidth</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -108,17 +93,20 @@
         <option value="$PROJECT_DIR$/src/Main/css.js" />
         <option value="$PROJECT_DIR$/src/Main/test.js" />
         <option value="$PROJECT_DIR$/src/Main/SubFeaturedPostsPagination.js" />
-        <option value="$PROJECT_DIR$/src/Main/Base.js" />
         <option value="$PROJECT_DIR$/src/Styles/MainFeaturedPost.js" />
         <option value="$PROJECT_DIR$/src/Styles/FirstBar.js" />
         <option value="$PROJECT_DIR$/src/Toolbar/FirstBar.js" />
         <option value="$PROJECT_DIR$/src/Main/MainFeaturedPost.js" />
         <option value="$PROJECT_DIR$/src/Styles/SecondBar.js" />
-        <option value="$PROJECT_DIR$/src/Toolbar/SecondBar.js" />
         <option value="$PROJECT_DIR$/src/Styles/FooterBase.js" />
-        <option value="$PROJECT_DIR$/src/Footer/Base.js" />
-        <option value="$PROJECT_DIR$/src/Main/SubFeaturedPosts.js" />
         <option value="$PROJECT_DIR$/src/Styles/SubFeaturedPosts.js" />
+        <option value="$PROJECT_DIR$/src/Footer/Email.js" />
+        <option value="$PROJECT_DIR$/src/Footer/Base.js" />
+        <option value="$PROJECT_DIR$/src/Styles/Email.js" />
+        <option value="$PROJECT_DIR$/src/Toolbar/SecondBar.js" />
+        <option value="$PROJECT_DIR$/src/Main/Base.js" />
+        <option value="$PROJECT_DIR$/src/Main/SubFeaturedPosts.js" />
+        <option value="$PROJECT_DIR$/src/Main/Email.js" />
       </list>
     </option>
   </component>
@@ -200,6 +188,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -246,7 +235,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -266,11 +254,12 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kmoon\Desktop\KoreanCollections\src\Contents" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kmoon\Desktop\untitled\src\Main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kmoon\Desktop\KoreanCollections\src\Main" />
+      <recent name="C:\Users\kmoon\Desktop\KoreanCollections\src\Contents" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,7 +296,9 @@
       <workItem from="1562126297024" duration="382000" />
       <workItem from="1562141252538" duration="4572000" />
       <workItem from="1562146022170" duration="179000" />
-      <workItem from="1562370419779" duration="13406000" />
+      <workItem from="1562370419779" duration="13599000" />
+      <workItem from="1562405799439" duration="7218000" />
+      <workItem from="1562981438644" duration="5757000" />
     </task>
     <task id="LOCAL-00001" summary="ADD Material-ui &amp; Robot Font">
       <created>1561682380279</created>
@@ -386,33 +377,76 @@
       <option name="project" value="LOCAL" />
       <updated>1562146081034</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="ADD 기본 pagination&#10;ADD 基本 pagination">
+      <created>1562383915769</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1562383915769</updated>
+    </task>
+    <task id="LOCAL-00013" summary="ADD 기본 email form&#10;ADD 基本 email form">
+      <created>1562412860295</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562412860295</updated>
+    </task>
+    <task id="LOCAL-00014" summary="ADD Email Title">
+      <created>1562982574210</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1562982574210</updated>
+    </task>
+    <task id="LOCAL-00015" summary="UPGRADE Function -&gt; Class Email.js">
+      <created>1562983972756</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1562983972756</updated>
+    </task>
+    <task id="LOCAL-00016" summary="UPGRADE fullWidth={&quot;true&quot;} -&gt; fullWidth={true} (Email.js)">
+      <created>1562986017958</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1562986017958</updated>
+    </task>
+    <task id="LOCAL-00017" summary="SubFeaturedPosts item 출력 4 -&gt; 8&#10;SubFeaturedPosts item 出力 4 -&gt; 8">
+      <created>1562986669507</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1562986669507</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41414000" />
+    <option name="totallyTimeSpent" value="54582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32752994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3301486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41022852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3301486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41022852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -480,27 +514,19 @@
     <MESSAGE value="UPDATE Title Link href &quot;/Korean-Collections&quot;" />
     <MESSAGE value="SubFeaturedPosts 구조 변경.&#10;SubFeaturedPosts Layout 変更。" />
     <MESSAGE value="TODO SubFeaturedPostsPagination!" />
-    <option name="LAST_COMMIT_MESSAGE" value="TODO SubFeaturedPostsPagination!" />
+    <MESSAGE value="ADD 기본 pagination&#10;ADD 基本 pagination" />
+    <MESSAGE value="ADD 기본 email form&#10;ADD 基本 email form" />
+    <MESSAGE value="ADD Email Title" />
+    <MESSAGE value="UPGRADE Function -&gt; Class Email.js" />
+    <MESSAGE value="UPGRADE fullWidth={&quot;true&quot;} -&gt; fullWidth={true} (Email.js)" />
+    <MESSAGE value="SubFeaturedPosts item 출력 4 -&gt; 8&#10;SubFeaturedPosts item 出力 4 -&gt; 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="SubFeaturedPosts item 출력 4 -&gt; 8&#10;SubFeaturedPosts item 出力 4 -&gt; 8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Toolbar/FirstBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="17" column="45" lean-forward="true" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/SubFeaturedPosts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Toolbar/SecondBar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -624,13 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -652,9 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#57#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -662,23 +678,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/css.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="16" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/css.js" />
     <entry file="file://$PROJECT_DIR$/src/Contents/SubFeaturedPost.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="709">
           <caret line="49" column="2" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="49" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,14 +697,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/test.js" />
     <entry file="file://$PROJECT_DIR$/src/Styles/MainFeaturedPost.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -706,77 +706,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/MainFeaturedPost.js">
+    <entry file="file://$PROJECT_DIR$/src/Styles/FooterBase.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="16" column="53" lean-forward="false" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="150">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/Base.js">
+    <entry file="file://$PROJECT_DIR$/src/Styles/SubFeaturedPosts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Styles/FirstBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
+        <state relative-caret-position="125">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Styles/SecondBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Toolbar/SecondBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Toolbar/FirstBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Styles/FooterBase.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="25">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Footer/Base.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="54" lean-forward="false" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Styles/FirstBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="58" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Styles/Email.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
-          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
+          <caret line="10" column="12" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -788,18 +766,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Styles/SubFeaturedPosts.js">
+    <entry file="file://$PROJECT_DIR$/src/Toolbar/FirstBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="275">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Toolbar/SecondBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/MainFeaturedPost.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Email.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1925">
+          <caret line="77" column="27" lean-forward="false" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#38#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main/Base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main/SubFeaturedPosts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+        <state relative-caret-position="375">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>

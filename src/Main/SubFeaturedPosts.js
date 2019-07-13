@@ -8,6 +8,8 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia'
 import Typography from '@material-ui/core/Typography'
 import {posts} from '../Contents/SubFeaturedPost'
+import IconButton from '@material-ui/core/IconButton'
+import SearchIcon from '@material-ui/icons/Search'
 
 export default withStyles(styles)(class SubFeaturedPostsPagination extends Component {
     state = {
@@ -36,37 +38,43 @@ export default withStyles(styles)(class SubFeaturedPostsPagination extends Compo
         const {classes} = this.props;
         const target = posts.slice(this.state.start, this.state.end);
         return (
-            <div>
-                <Grid container spacing={4}>
-                    {target.map(post => (
-                        <Grid item key={post.title} xs={6} md={3}>
-                            <Card>
-                                <CardMedia
-                                    className={classes.media}
-                                    image={"https://source.unsplash.com/random"}
-                                    title={post.title}
-                                />
-                                <CardContent>
-                                    <Typography gutterBottom variant={'h5'} component={'h2'}>
-                                        {post.title}
-                                    </Typography>
-                                    <Typography variant={"subtitle1"} color="textSecondary">
-                                        {post.date}
-                                    </Typography>
-                                    <Typography variant={"subtitle1"} color="textSecondary">
-                                        {post.description}
-                                    </Typography>
-                                </CardContent>
-                            </Card>
-                        </Grid>
-                    ))}
-                </Grid>
-
-                <div align="center">
-                <Button onClick={this.handleChangeIndexDown} className={classes.button} color={"primary"} variant="contained">befor</Button>
-                <Button onClick={this.handleChangeIndexUp} className={classes.button} color={"primary"} variant="contained">next</Button>
+            <React.Fragment>
+                <div>
+                    <IconButton>
+                        <SearchIcon />
+                    </IconButton>
                 </div>
-            </div>
+                <div>
+                    <Grid container spacing={4}>
+                        {target.map(post => (
+                            <Grid item key={post.title} xs={6} md={3}>
+                                <Card>
+                                    <CardMedia
+                                        className={classes.media}
+                                        image={"https://source.unsplash.com/random"}
+                                        title={post.title}
+                                    />
+                                    <CardContent>
+                                        <Typography gutterBottom variant={'h5'} component={'h2'}>
+                                            {post.title}
+                                        </Typography>
+                                        <Typography variant={"subtitle1"} color="textSecondary">
+                                            {post.date}
+                                        </Typography>
+                                        <Typography variant={"subtitle1"} color="textSecondary">
+                                            {post.description}
+                                        </Typography>
+                                    </CardContent>
+                                </Card>
+                            </Grid>
+                        ))}
+                    </Grid>
+                </div>
+                <div align="center">
+                    <Button onClick={this.handleChangeIndexDown} className={classes.button} color={"primary"} variant="contained">befor</Button>
+                    <Button onClick={this.handleChangeIndexUp} className={classes.button} color={"primary"} variant="contained">next</Button>
+                </div>
+            </React.Fragment>
         )
     }
 })

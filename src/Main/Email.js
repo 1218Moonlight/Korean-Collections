@@ -6,19 +6,6 @@ import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 
 export default withStyles(styles)(class Email extends Component {
-    // getOffset = (element) => {
-    //     const box = element.getBoundingClientRect();
-    //     return {
-    //         top: (box.top + window.pageYOffset) - document.documentElement.clientTop - 50,
-    //         left: (box.left + window.pageXOffset) - document.documentElement.clientLeft
-    //     }
-    // };
-    // setFocus = (panel) => {
-    //     event.preventDefault();
-    //     const panelPosition = this.getOffset(panel);
-    //     document.body.scrollTop = panelPosition.top;
-    //     Panel.handleOpenPanel(panel.nextElementSibling.id);
-    // };
     render() {
         const {classes} = this.props;
         return (
@@ -89,7 +76,6 @@ export default withStyles(styles)(class Email extends Component {
 
                         {/*<input type="hidden" name="_next" value="//mywebsite.com/thanks.html" />*/}
                     </form>
-                    {/*<Button onClick={() => this.setForcus()}>이동</Button>*/}
                 </div>
             </React.Fragment>
         )
