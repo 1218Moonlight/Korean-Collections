@@ -11,25 +11,30 @@ import {posts} from '../../Contents/SubFeaturedPost'
 
 export default withStyles(styles)(class SubFeaturedPostsPagination extends Component {
     state = {
+        postsSize: posts.length,
         page: 1,
         start: 0,
         end: 4
     };
 
     handleChangeIndexUp = () => {
-        this.setState({
-            page: this.state.page + 1,
-            start: this.state.start + 4,
-            end: this.state.end + 4
-        })
+        if (this.state.postsSize > this.state.page * 4) {
+            this.setState({
+                page: this.state.page + 1,
+                start: this.state.start + 4,
+                end: this.state.end + 4
+            })
+        }
     };
 
     handleChangeIndexDown = () => {
-        this.setState({
-            page: this.state.page - 1,
-            start: this.state.start - 4,
-            end: this.state.end - 4
-        })
+        if (this.state.start !== 0) {
+            this.setState({
+                page: this.state.page - 1,
+                start: this.state.start - 4,
+                end: this.state.end - 4
+            })
+        }
     };
 
     render() {
@@ -38,7 +43,7 @@ export default withStyles(styles)(class SubFeaturedPostsPagination extends Compo
         return (
             <React.Fragment>
                 <div>
-                    <Grid container spacing={4}>
+                    <Grid container spacing={2}>
                         {target.map(post => (
                             <Grid item key={post.title} xs={6} md={3}>
                                 <Card>
@@ -63,11 +68,10 @@ export default withStyles(styles)(class SubFeaturedPostsPagination extends Compo
                         ))}
                     </Grid>
                 </div>
-                <div align="center">
-                    <Button onClick={this.handleChangeIndexDown} className={classes.button} color={"primary"}
-                            variant="contained">befor</Button>
-                    <Button onClick={this.handleChangeIndexUp} className={classes.button} color={"primary"}
-                            variant="contained">next</Button>
+                <div align="center" className={classes.buttonContainer}>
+                    <Button onClick={this.handleChangeIndexDown}>BEFOR</Button>
+                    <Button color={'primary'}>{this.state.page}</Button>
+                    <Button onClick={this.handleChangeIndexUp}>NEXT</Button>
                 </div>
             </React.Fragment>
         )

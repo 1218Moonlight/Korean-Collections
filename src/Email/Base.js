@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
 import {withStyles} from '@material-ui/core/styles'
-import {styles} from '../Styles/Main'
+import {styles} from '../Home/Styles/Main'
 import TextField from '@material-ui/core/TextField'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'
 
-export default withStyles(styles)(class Email extends Component {
+export default withStyles(styles)(class EmailBase extends Component {
     render() {
         const {classes} = this.props;
         return (

@@ -28,10 +28,11 @@ export const styles = theme => ({
     },
     // SubFeatured
     media: {
-        paddingTop: '56.25%'
+        // paddingTop: '56.25%'
+        padding: '56.25%'
     },
-    button: {
-        margin: theme.spacing(3, 1, 2),
+    buttonContainer: {
+        margin: theme.spacing(1),
     },
     search: {
         margin: theme.spacing(2),
