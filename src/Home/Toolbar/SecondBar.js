@@ -28,7 +28,7 @@ export default withStyles(styles)(function SecondBar(props) {
                     key={section}
                     variant="body2"
                     // href={section}
-                    href={section}
+                    href={'#/'+section}
                     className={classes.toolbarLink}
                 >
                     {section}
