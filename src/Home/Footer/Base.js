@@ -1,6 +1,6 @@
 import React from 'react'
 import {withStyles} from '@material-ui/core/styles';
-import {styles} from '../Styles/FooterBase'
+import {styles} from '../Styles/Footer'
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 

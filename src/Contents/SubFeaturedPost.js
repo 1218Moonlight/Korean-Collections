@@ -1,50 +1,50 @@
 export const posts = [
     {
-        title: 'Featured post1',
-        date: 'Nov 16',
+        title: 'Shin Ramen (신라면)',
+        date: '2019-07-19',
         description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+            'Shin Ramen!',
     },
     {
-        title: 'Featured post2',
-        date: 'Nov 12',
+        title: 'Bowl (그릇)',
+        date: '2019-07-19',
         description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+            'Bowl!',
     },
     {
-        title: 'Featured post3',
-        date: 'Nov 12',
+        title: 'Cosmetics (화장품)',
+        date: '2019-07-19',
         description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+            'Cosmetics!',
     },
     {
-        title: 'Featured post4',
-        date: 'Nov 12',
+        title: 'weapon (무기)',
+        date: '2019-07-19',
         description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+            'weapon!',
     },
     {
-        title: 'Post title1',
-        date: 'Nov 11',
+        title: 'Snacks (과자)',
+        date: '2019-07-19',
         description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+            'Snacks!',
     },
     {
-        title: 'Post title2',
-        date: 'Nov 10',
+        title: 'Drink (음료수)',
+        date: '2019-07-19',
         description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+            'Drink!',
     },
     {
-        title: 'Post title3',
-        date: 'Nov 11',
+        title: 'Armor (방어구)',
+        date: '2019-07-19',
         description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+            'Armor!',
     },
     {
-        title: 'Post title4',
-        date: 'Nov 10',
+        title: 'Dress (옷)',
+        date: '2019-07-19',
         description:
-            'This is a wider card with supporting text below as a natural lead-in to additional content.',
+            'Dress!',
     },
 ];

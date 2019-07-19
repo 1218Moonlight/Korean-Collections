@@ -1,6 +1,6 @@
 import React from 'react'
 import {withStyles} from '@material-ui/core/styles';
-import {styles} from '../Styles/MainFeaturedPost'
+import {styles} from '../Styles/Main'
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';

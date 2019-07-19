@@ -1,4 +1,23 @@
 export const styles = theme => ({
+    // TitleBar
+    toolbar: {
+        borderBottom: `1px solid ${theme.palette.divider}`,
+        backgroundColor: theme.palette.background.paper,
+    },
+    toolbarTitle: {
+        flex: 1,
+    },
+
+    // SecondBar
+    toolbarSecondary: {
+        justifyContent: 'space-between',
+        overflowX: 'auto',
+    },
+    toolbarLink: {
+        padding: theme.spacing(1),
+        flexShrink: 1,
+    },
+    // MainFeaturedPost
     mainFeaturedPost: {
         position: 'relative',
         backgroundColor: theme.palette.grey[800],

@@ -1,22 +1,14 @@
 import React from 'react';
-import CssBaseline from '@material-ui/core/CssBaseline';
-import Container from '@material-ui/core/Container';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import HomeBase from './Home/Base'
 
-import ToolbarBase from './Toolbar/Base'
-import MainBase from './Main/Base'
-import FooterBase from './Footer/Base'
-
-function App() {
+export default function App() {
     return (
-        <React.Fragment>
-            <CssBaseline/>
-            <Container maxWidth={"lg"}>
-                <ToolbarBase/>
-                <MainBase/>
-                <FooterBase/>
-            </Container>
-        </React.Fragment>
-    );
+            <Router>
+                    <Switch>
+                        <Route exact path="/" component={HomeBase}/>
+                        {/*<Route path="/about" component={}/>*/}
+                    </Switch>
+            </Router>
+    )
 }
-
-export default App;

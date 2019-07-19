@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {withStyles} from '@material-ui/core/styles'
-import {styles} from '../Styles/Email'
+import {styles} from '../Styles/Main'
 import TextField from '@material-ui/core/TextField'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography'

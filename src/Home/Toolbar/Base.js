@@ -1,5 +1,5 @@
 import React from 'react';
-import FirstBar from './FirstBar'
+import FirstBar from './TitleBar'
 import SecondBar from './SecondBar'
 
 export default function ToolbarBase() {
