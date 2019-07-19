@@ -4,5 +4,8 @@ export const styles = theme => ({
     },
     button: {
         margin: theme.spacing(3, 1, 2),
+    },
+    search: {
+        margin: theme.spacing(2),
     }
 });
