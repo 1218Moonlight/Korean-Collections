@@ -4,7 +4,7 @@ export const styles = theme => ({
         position: 'relative',
         backgroundColor: theme.palette.grey[800],
         color: theme.palette.common.white,
-        marginBottom: theme.spacing(4),
+        marginBottom: theme.spacing(3),
         backgroundImage: 'url(https://source.unsplash.com/user/erondu)',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
@@ -35,7 +35,7 @@ export const styles = theme => ({
         margin: theme.spacing(1),
     },
     search: {
-        margin: theme.spacing(2),
+        marginBottom: theme.spacing(3),
         backgroundColor: theme.palette.background.paper,
     },
     // Email

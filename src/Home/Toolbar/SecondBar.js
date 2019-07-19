@@ -5,7 +5,7 @@ import Toolbar from '@material-ui/core/Toolbar'
 import Link from '@material-ui/core/Link'
 
 const sections = [
-    'One',
+    'Email',
     'Two',
     'Three',
     'Four',
@@ -28,7 +28,7 @@ export default withStyles(styles)(function SecondBar(props) {
                     key={section}
                     variant="body2"
                     // href={section}
-                    href={"#"}
+                    href={section}
                     className={classes.toolbarLink}
                 >
                     {section}
