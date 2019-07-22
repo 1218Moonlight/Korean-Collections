@@ -22,17 +22,18 @@ export default withStyles(styles)(class CollectionsBase extends Component {
     };
     handleSearchFieldChange = (e) => {
         let searchText = e.target.value.toLowerCase();
-        let collection = [];
-        posts.map(post => {
-            let title = post.title.toLowerCase();
+        let collections = [];
+
+        Object.keys(posts).forEach(index => {
+            let title = posts[index].title.toLowerCase();
             if (title.indexOf(searchText) !== -1) {
-                collection.push(post)
+                collections.push(posts[index])
             }
         });
 
         this.setState({
-            posts: collection,
-            postsSize: collection.length
+            posts: collections,
+            postsSize: collections.length
         })
     };
 
