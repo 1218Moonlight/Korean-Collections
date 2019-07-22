@@ -11,7 +11,32 @@ import FooterBase from '../Footer/Base'
 import CollectionsPosts from './CollectionsPosts'
 import CollectionsSearch from './CollectionsSearch'
 
+import {posts} from '../Contents/CollectionsPosts'
+
+
 export default withStyles(styles)(class CollectionsBase extends Component {
+    state = {
+        posts: posts,
+        postsSize: posts.length
+
+    };
+    handleSearchFieldChange = (e) => {
+        let searchText = e.target.value.toLowerCase();
+        let collection = [];
+        posts.map(post => {
+            let title = post.title.toLowerCase();
+            if (title.indexOf(searchText) !== -1) {
+                collection.push(post)
+            }
+        });
+
+        this.setState({
+            posts: collection,
+            postsSize: collection.length
+        })
+    };
+
+
     render() {
         const {classes} = this.props;
         return (
@@ -19,10 +44,9 @@ export default withStyles(styles)(class CollectionsBase extends Component {
                 <CssBaseline/>
                 <Container maxWidth={"lg"}>
                     <ToolbarBase subTitleName={"Collections"}/>
-
                     <div className={classes.collectionsBase}>
-                        <CollectionsSearch classes={classes}/>
-                        <CollectionsPosts classes={classes}/>
+                        <CollectionsSearch classes={classes} handleSearchFieldChange={this.handleSearchFieldChange}/>
+                        <CollectionsPosts classes={classes} posts={this.state.posts} postsSize={this.state.postsSize}/>
                     </div>
 
                     <FooterBase/>

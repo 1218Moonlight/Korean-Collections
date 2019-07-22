@@ -4,9 +4,6 @@ import Link from '@material-ui/core/Link'
 
 const sections = [
     'Collections',
-    'Two',
-    'Three',
-    'Four',
     'Contact',
 ];
 

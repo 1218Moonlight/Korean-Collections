@@ -8,7 +8,7 @@ export default (class SubTitle extends React.Component {
             <div className={classes.subTitleDiv}>
                 <Typography className={classes.subTitleTitle}
                             component="h2"
-                            variant="h5"
+                            variant="h6"
                             color="inherit"
                             align="center"
                             noWrap
