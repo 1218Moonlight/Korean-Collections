@@ -47,4 +47,10 @@ export const posts = [
         description:
             'Dress!',
     },
+    {
+        title: 'Dress2 (옷)',
+        date: '2019-07-19',
+        description:
+            'Dress2!',
+    },
 ];

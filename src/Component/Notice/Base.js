@@ -16,7 +16,7 @@ export default withStyles(styles)(function NoticeBase(props) {
         <React.Fragment>
             <CssBaseline/>
             <Container maxWidth={"lg"}>
-                <ToolbarBase/>
+                <ToolbarBase subTitleName={"Notice"}/>
 
                 <div className={classes.noticeBase}>
                     <NoticePost classes={classes}/>

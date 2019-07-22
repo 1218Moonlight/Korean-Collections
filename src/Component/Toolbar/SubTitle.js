@@ -1,19 +1,19 @@
 import React from 'react'
 import Typography from '@material-ui/core/Typography'
 
-export default (class EmailTitle extends React.Component {
+export default (class SubTitle extends React.Component {
     render() {
-        const {classes} = this.props;
+        const {classes, subTitleName} = this.props;
         return (
-            <div className={classes.container}>
-                <Typography className={classes.containerTitle}
+            <div className={classes.subTitleDiv}>
+                <Typography className={classes.subTitleTitle}
                             component="h2"
                             variant="h5"
                             color="inherit"
                             align="center"
                             noWrap
                 >
-                    Contact
+                    {subTitleName}
                 </Typography>
             </div>
         )

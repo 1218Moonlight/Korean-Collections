@@ -12,15 +12,16 @@ export default (class CollectionsPosts extends Component {
         postsSize: posts.length,
         page: 1,
         start: 0,
-        end: 4
+        end: 8,
+        collectionsCount: 8
     };
 
     handleChangeIndexUp = () => {
-        if (this.state.postsSize > this.state.page * 4) {
+        if (this.state.postsSize > this.state.page * this.state.collectionsCount) {
             this.setState({
                 page: this.state.page + 1,
-                start: this.state.start + 4,
-                end: this.state.end + 4
+                start: this.state.start + this.state.collectionsCount,
+                end: this.state.end + this.state.collectionsCount
             })
         }
     };
@@ -29,8 +30,8 @@ export default (class CollectionsPosts extends Component {
         if (this.state.start !== 0) {
             this.setState({
                 page: this.state.page - 1,
-                start: this.state.start - 4,
-                end: this.state.end - 4
+                start: this.state.start - this.state.collectionsCount,
+                end: this.state.end - this.state.collectionsCount
             })
         }
     };

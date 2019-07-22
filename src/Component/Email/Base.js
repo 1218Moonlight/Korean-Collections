@@ -2,7 +2,6 @@ import React from 'react'
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 
-import EmailTitle from './EmailTitle'
 import EmailMain from './EmailMain'
 
 import ToolbarBase from '../Toolbar/Base'
@@ -17,10 +16,9 @@ export default withStyles(styles)(class EmailBase extends React.Component {
             <React.Fragment>
                 <CssBaseline/>
                 <Container maxWidth={"lg"}>
-                    <ToolbarBase/>
+                    <ToolbarBase subTitleName={"Contact"}/>
 
                     <div className={classes.emailBase}>
-                        <EmailTitle classes={classes}/>
                         <EmailMain classes={classes}/>
                     </div>
 
