@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {withStyles} from '@material-ui/core/styles'
-import {styles} from '../Styles/Main'
+import {styles} from '../../Styles/Main'
 import Button from '@material-ui/core/Button'
 import Grid from '@material-ui/core/Grid'
 import Card from '@material-ui/core/Card'

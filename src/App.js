@@ -1,7 +1,7 @@
 import React from 'react';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
-import HomeBase from './Home/Base'
-import EmailBase from './Email/Base'
+import HomeBase from './Component/Home/Base'
+import EmailBase from './Component/Email/Base'
 
 export default function App() {
     return (
