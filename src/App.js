@@ -3,6 +3,7 @@ import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import NoticeBase from './Component/Notice/Base'
 import CollectionsBase from './Component/Collections/Base'
 import EmailBase from './Component/Email/Base'
+import SimteBase from './Component/Simte/Base'
 
 export default function App() {
     return (
@@ -11,6 +12,7 @@ export default function App() {
                 <Route exact path={"/"} component={NoticeBase}/>
                 <Route path={"/Collections"} component={CollectionsBase}/>
                 <Route path={"/Contact"} component={EmailBase}/>
+                <Route path={"/Simte"} component={SimteBase} />
             </Switch>
         </Router>
     )
