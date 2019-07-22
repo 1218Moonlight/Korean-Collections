@@ -1,16 +1,15 @@
 import React from 'react'
 import {withStyles} from '@material-ui/core/styles';
-import {styles} from '../../Styles/Main'
+import {styles} from '../Styles/Main'
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
 
-export default withStyles(styles)(function MainFeaturedPost(props) {
+export default withStyles(styles)(function NoticePost(props) {
     const {classes} = props;
     return (
         <React.Fragment>
-            <main>
                 <Paper className={classes.mainFeaturedPost}>
                     {
                         <img
@@ -37,7 +36,6 @@ export default withStyles(styles)(function MainFeaturedPost(props) {
                         </Grid>
                     </Grid>
                 </Paper>
-            </main>
         </React.Fragment>
     )
 })

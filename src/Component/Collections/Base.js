@@ -3,17 +3,19 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Container from '@material-ui/core/Container';
 
 import ToolbarBase from '../Toolbar/Base'
-import MainBase from './Main/Base'
 import FooterBase from '../Footer/Base'
 
+import HomePosts from './CollectionsPosts'
+import HomeSearch from './CollectionsSearch'
 
-export default function HomeBase() {
+export default function CollectionsBase() {
     return (
         <React.Fragment>
             <CssBaseline/>
             <Container maxWidth={"lg"}>
                 <ToolbarBase/>
-                <MainBase/>
+                <HomeSearch/>
+                <HomePosts/>
                 <FooterBase/>
             </Container>
         </React.Fragment>

@@ -5,11 +5,11 @@ import Toolbar from '@material-ui/core/Toolbar'
 import Link from '@material-ui/core/Link'
 
 const sections = [
-    'Email',
+    'Collections',
     'Two',
     'Three',
     'Four',
-    'Five',
+    'Email',
     // 'Six',
     // 'Seven',
     // 'Eight',

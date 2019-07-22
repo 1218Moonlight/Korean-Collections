@@ -1,15 +1,15 @@
 import React, {Component} from 'react'
 import {withStyles} from '@material-ui/core/styles'
-import {styles} from '../../Styles/Main'
+import {styles} from '../Styles/Main'
 import Button from '@material-ui/core/Button'
 import Grid from '@material-ui/core/Grid'
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import Typography from '@material-ui/core/Typography'
-import {posts} from '../../Contents/SubFeaturedPost'
+import {posts} from '../Contents/CollectionsPosts'
 
-export default withStyles(styles)(class SubFeaturedPostsPagination extends Component {
+export default withStyles(styles)(class CollectionsPosts extends Component {
     state = {
         postsSize: posts.length,
         page: 1,

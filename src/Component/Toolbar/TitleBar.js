@@ -8,7 +8,7 @@ export default withStyles(styles)(function FirstBar(props) {
     const {classes} = props;
     return (
         <Toolbar className={classes.toolbar}>
-            <Link href={"/Korean-Collections"} variant={"h5"} color={"inherit"} className={classes.toolbarTitle}
+            <Link href={"/Korean-Collections"} variant={"h4"} color={"inherit"} className={classes.toolbarTitle}
                   align={"center"}
                   noWrap>Korean Collections</Link>
         </Toolbar>
