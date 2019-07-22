@@ -10,7 +10,7 @@ export default function App() {
             <Switch>
                 <Route exact path={"/"} component={NoticeBase}/>
                 <Route path={"/Collections"} component={CollectionsBase}/>
-                <Route path={"/Email"} component={EmailBase}/>
+                <Route path={"/Contact"} component={EmailBase}/>
             </Switch>
         </Router>
     )

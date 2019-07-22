@@ -1,6 +1,4 @@
 import React, {Component} from 'react'
-import {withStyles} from '@material-ui/core/styles'
-import {styles} from '../Styles/Main'
 import Button from '@material-ui/core/Button'
 import Grid from '@material-ui/core/Grid'
 import Card from '@material-ui/core/Card'
@@ -9,7 +7,7 @@ import CardMedia from '@material-ui/core/CardMedia'
 import Typography from '@material-ui/core/Typography'
 import {posts} from '../Contents/CollectionsPosts'
 
-export default withStyles(styles)(class CollectionsPosts extends Component {
+export default (class CollectionsPosts extends Component {
     state = {
         postsSize: posts.length,
         page: 1,
@@ -41,7 +39,7 @@ export default withStyles(styles)(class CollectionsPosts extends Component {
         const {classes} = this.props;
         const target = posts.slice(this.state.start, this.state.end);
         return (
-            <React.Fragment>
+            <div>
                 <div>
                     <Grid container spacing={2}>
                         {target.map(post => (
@@ -73,7 +71,7 @@ export default withStyles(styles)(class CollectionsPosts extends Component {
                     <Button color={'primary'}>{this.state.page}</Button>
                     <Button onClick={this.handleChangeIndexUp}>NEXT</Button>
                 </div>
-            </React.Fragment>
+            </div>
         )
     }
 })

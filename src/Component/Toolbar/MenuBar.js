@@ -1,6 +1,4 @@
 import React from 'react';
-import {withStyles} from '@material-ui/core/styles';
-import {styles} from '../Styles/Toolbar'
 import Toolbar from '@material-ui/core/Toolbar'
 import Link from '@material-ui/core/Link'
 
@@ -9,15 +7,10 @@ const sections = [
     'Two',
     'Three',
     'Four',
-    'Email',
-    // 'Six',
-    // 'Seven',
-    // 'Eight',
-    // 'Nine',
-    // 'Travel',
+    'Contact',
 ];
 
-export default withStyles(styles)(function SecondBar(props) {
+export default (function SecondBar(props) {
     const {classes} = props;
     return (
         <Toolbar component="nav" variant="dense" className={classes.toolbarSecondary}>
