@@ -1,8 +1,11 @@
 export const styles = theme => ({
+    toolbarBase: {
+        // backgroundColor:'white'
+    },
+
     // TitleBar
     toolbar: {
         borderBottom: `1px solid ${theme.palette.divider}`,
-        backgroundColor: theme.palette.background.paper,
     },
     toolbarTitle: {
         flex: 1,
@@ -12,6 +15,7 @@ export const styles = theme => ({
     toolbarSecondary: {
         justifyContent: 'space-between',
         overflowX: 'auto',
+        marginBottom: 10,
     },
     toolbarLink: {
         padding: theme.spacing(1),
@@ -27,14 +31,6 @@ export const styles = theme => ({
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-    },
-    overlay: {
-        position: 'absolute',
-        top: 0,
-        bottom: 0,
-        right: 0,
-        left: 0,
-        backgroundColor: 'rgba(0,0,0,.3)',
     },
     mainFeaturedPostContent: {
         position: 'relative',

@@ -15,10 +15,16 @@ export default (class EmailBase extends Component {
             <React.Fragment>
                 <CssBaseline/>
                 <Container maxWidth={"lg"}>
+
+
                     <ToolbarBase/>
+
                     <EmailTitle/>
                     <EmailMain/>
+
                     <FooterBase/>
+
+
                 </Container>
             </React.Fragment>
         )

@@ -1,12 +1,15 @@
 import React from 'react';
 import TitleBar from './TitleBar'
 import SecondBar from './SecondBar'
+import {withStyles} from "@material-ui/core/styles/index";
+import {styles} from "../Styles/Toolbar";
 
-export default function ToolbarBase() {
+export default withStyles(styles)(function ToolbarBase(props) {
+    const {classes} = props;
     return (
-        <React.Fragment>
+        <div className={classes.toolbarBase}>
             <TitleBar/>
             <SecondBar/>
-        </React.Fragment>
+        </div>
     )
-}
+})

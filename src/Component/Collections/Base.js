@@ -13,10 +13,16 @@ export default function CollectionsBase() {
         <React.Fragment>
             <CssBaseline/>
             <Container maxWidth={"lg"}>
+
+
                 <ToolbarBase/>
+
                 <HomeSearch/>
                 <HomePosts/>
+
                 <FooterBase/>
+
+
             </Container>
         </React.Fragment>
     );

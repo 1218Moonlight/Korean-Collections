@@ -5,12 +5,15 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
 import Link from '@material-ui/core/Link';
+import {posts} from '../Contents/NoticePosts'
+
 
 export default withStyles(styles)(function NoticePost(props) {
     const {classes} = props;
     return (
-        <React.Fragment>
-                <Paper className={classes.mainFeaturedPost}>
+        <div>
+            {posts.map(post => (
+                <Paper key={post.title} className={classes.mainFeaturedPost}>
                     {
                         <img
                             style={{display: 'none'}}
@@ -18,24 +21,20 @@ export default withStyles(styles)(function NoticePost(props) {
                             alt={"background"}
                         />
                     }
-                    <div className={classes.overlay}/>
-                    <Grid container>
+                    <Grid container spacing={2}>
                         <Grid item md={6}>
                             <div className={classes.mainFeaturedPostContent}>
-                                <Typography component="h1" variant="h3" color="inherit" gutterBottom>
-                                    Title of a longer featured blog post
+                                <Typography component="h5" variant="h5" color="inherit" gutterBottom>
+                                    {post.title}
                                 </Typography>
-                                <Typography variant="h5" color="inherit" paragraph>
-                                    Multiple lines of text that form the lede, informing new readers quickly and
-                                    efficiently about what&apos;s most interesting in this post&apos;s contents.
-                                </Typography>
-                                <Link variant="subtitle1" href="#">
-                                    Continue reading…
+                                <Link variant="subtitle1" href={post.link}>
+                                    {post.link}
                                 </Link>
                             </div>
                         </Grid>
                     </Grid>
                 </Paper>
-        </React.Fragment>
+            ))}
+        </div>
     )
 })

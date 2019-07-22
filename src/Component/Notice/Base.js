@@ -13,9 +13,15 @@ export default function NoticeBase() {
         <React.Fragment>
             <CssBaseline/>
             <Container maxWidth={"lg"}>
+
+
                 <ToolbarBase/>
+
                 <NoticePost/>
+
                 <FooterBase/>
+
+
             </Container>
         </React.Fragment>
     );
