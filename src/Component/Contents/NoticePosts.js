@@ -1,14 +1,14 @@
 export const posts = [
     {
         title: "Notice1",
-        link: "http://localhost:3000/Korean-Collections#/1"
+        link: "https://kr-goods.shop/"
     },
     {
         title: "Notice2",
-        link: "http://localhost:3000/Korean-Collections#/2"
+        link: "https://kr-goods.shop/"
     },
     {
         title: "Notice3",
-        link: "http://localhost:3000/Korean-Collections#/3"
+        link: "https://kr-goods.shop/"
     }
 ];

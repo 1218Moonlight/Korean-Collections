@@ -1,10 +1,7 @@
 import React, {Component} from 'react'
 import Button from '@material-ui/core/Button'
+import ButtonBase from '@material-ui/core/ButtonBase'
 import Grid from '@material-ui/core/Grid'
-import Card from '@material-ui/core/Card'
-import CardContent from '@material-ui/core/CardContent'
-
-import CardMedia from '@material-ui/core/CardMedia'
 import Typography from '@material-ui/core/Typography'
 
 
@@ -41,28 +38,31 @@ export default (class CollectionsPosts extends Component {
         const target = posts.slice(this.state.start, this.state.end);
         return (
             <div>
-                <div>
+                <div className={classes.root}>
                     <Grid container spacing={2}>
-                        {target.map(post => (
-                            <Grid item key={post.title} xs={6} md={3}>
-                                <Card>
-                                    <CardMedia
-                                        className={classes.media}
-                                        image={"https://source.unsplash.com/random"}
-                                        title={post.title}
-                                    />
-                                    <CardContent>
-                                        <Typography gutterBottom variant={'h6'} component={'h2'}>
-                                            {post.title}
+                        {target.map(image => (
+                            <Grid item key={image.title} xs={6} md={3}>
+                                <ButtonBase
+                                    focusRipple
+                                    key={image.title}
+                                    className={classes.image}
+                                    focusVisibleClassName={classes.focusVisible}>
+                                      <span className={classes.imageSrc}
+                                            style={{
+                                                backgroundImage: `url(${image.url})`,
+                                            }}/>
+                                    <span className={classes.imageBackdrop}/>
+                                    <span className={classes.imageButton}>
+                                        <Typography
+                                            component="span"
+                                            variant="subtitle1"
+                                            color="inherit"
+                                            className={classes.imageTitle}>
+                                          {image.title}
+                                            <span className={classes.imageMarked}/>
                                         </Typography>
-                                        <Typography variant={"subtitle1"} color="textSecondary">
-                                            {post.date}
-                                        </Typography>
-                                        <Typography variant={"subtitle1"} color="textSecondary">
-                                            {post.description}
-                                        </Typography>
-                                    </CardContent>
-                                </Card>
+                                      </span>
+                                </ButtonBase>
                             </Grid>
                         ))}
                     </Grid>

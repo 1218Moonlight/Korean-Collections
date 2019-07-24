@@ -1,55 +1,56 @@
 export const posts = [
     {
-        title: 'Shin Ramen (신라면)',
-        date: '2019-07-19',
+        title: 'Shin Ramen',
+        url: '"https://source.unsplash.com/random"',
+        tag:'food',
         description:
             'Shin Ramen!',
     },
     {
-        title: 'Bowl (그릇)',
-        date: '2019-07-19',
+        title: 'Bowl',
+        url: "https://source.unsplash.com/random",
         description:
             'Bowl!',
     },
     {
-        title: 'Cosmetics (화장품)',
-        date: '2019-07-19',
+        title: 'Cosmetics',
+        url: "https://source.unsplash.com/random",
         description:
             'Cosmetics!',
     },
     {
-        title: 'weapon (무기)',
-        date: '2019-07-19',
+        title: 'weapon',
+        url: "https://source.unsplash.com/random",
         description:
             'weapon!',
     },
     {
-        title: 'Snacks (과자)',
-        date: '2019-07-19',
+        title: 'Snacks',
+        url: "https://source.unsplash.com/random",
         description:
             'Snacks!',
     },
     {
-        title: 'Drink (음료수)',
-        date: '2019-07-19',
+        title: 'Drink',
+        url: "https://source.unsplash.com/random",
         description:
             'Drink!',
     },
     {
-        title: 'Armor (방어구)',
-        date: '2019-07-19',
+        title: 'Armor',
+        url: "https://source.unsplash.com/random",
         description:
             'Armor!',
     },
     {
-        title: 'Dress (옷)',
-        date: '2019-07-19',
+        title: 'Dress',
+        url: "https://source.unsplash.com/random",
         description:
             'Dress!',
     },
     {
-        title: 'Dress2 (옷)',
-        date: '2019-07-19',
+        title: 'Dress2',
+        url: "https://source.unsplash.com/random",
         description:
             'Dress2!',
     },
