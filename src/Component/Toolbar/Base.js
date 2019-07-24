@@ -3,18 +3,29 @@ import {withStyles} from "@material-ui/core/styles/index";
 import {styles} from "../Styles/Toolbar";
 
 import TitleBar from './TitleBar'
-import SecondBar from './MenuBar'
-import SubTitle from './SubTitle'
+import DrawerBar from './DrawerBar'
 
+import CssBaseline from '@material-ui/core/CssBaseline';
 
 
 export default withStyles(styles)(function ToolbarBase(props) {
-    const {classes, subTitleName} = props;
+    const {classes, children} = props;
+    const [open, setOpen] = React.useState(true);
+    const handleDrawerOpen = () => {
+        setOpen(true);
+    };
+    const handleDrawerClose = () => {
+        setOpen(false);
+    };
+
     return (
-        <div className={classes.toolbarBase}>
-            <TitleBar classes={classes}/>
-            <SecondBar classes={classes}/>
-            <SubTitle classes={classes} subTitleName={subTitleName}/>
+        <div className={classes.root}>
+            <CssBaseline/>
+            <TitleBar classes={classes} handleDrawerOpen={handleDrawerOpen} open={open}/>
+            <DrawerBar classes={classes} handleDrawerClose={handleDrawerClose} open={open}/>
+            <main className={classes.content}>
+                {children}
+            </main>
         </div>
     )
 })
