@@ -1,7 +1,4 @@
 export const styles = theme => ({
-    collectionsBase:{
-        marginTop: theme.spacing(4),
-    },
     search: {
         marginBottom: theme.spacing(4),
         backgroundColor: theme.palette.background.paper,

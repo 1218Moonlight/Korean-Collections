@@ -9,9 +9,7 @@ export default withStyles(styles)(function SimteBase(props) {
     const {classes} = props;
     return (
         <ToolbarBase>
-            <div className={classes.noticeBase}>
                 <Study classes={classes} step={step}/>
-            </div>
         </ToolbarBase>
     );
 })

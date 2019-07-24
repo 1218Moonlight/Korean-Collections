@@ -1,7 +1,4 @@
 export const styles = theme => ({
-    noticeBase: {
-        marginTop: theme.spacing(4),
-    },
     noticePaper: {
         position: 'relative',
         backgroundColor: theme.palette.grey[800],

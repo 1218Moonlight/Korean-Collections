@@ -7,7 +7,9 @@ export const styles = theme => ({
         flexGrow: 1,
         height: '100vh',
         overflow: 'auto',
-        padding: 100
+        paddingTop: 100,
+        paddingLeft: 10,
+        paddingRight: 10
     },
     toolbar1: {
         borderBottom: `1px solid ${theme.palette.divider}`,

@@ -8,9 +8,7 @@ export default withStyles(styles)(function NoticeBase(props) {
     const {classes} = props;
     return (
         <ToolbarBase>
-            <div className={classes.noticeBase}>
                 <NoticePost classes={classes}/>
-            </div>
         </ToolbarBase>
     );
 })

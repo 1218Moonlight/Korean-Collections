@@ -9,9 +9,7 @@ export default withStyles(styles)(class EmailBase extends React.Component {
         const {classes} = this.props;
         return (
             <ToolbarBase>
-                <div className={classes.emailBase}>
                     <EmailMain classes={classes}/>
-                </div>
             </ToolbarBase>
         )
     }

@@ -34,10 +34,8 @@ export default withStyles(styles)(class CollectionsBase extends Component {
         const {classes} = this.props;
         return (
             <ToolbarBase>
-                <div className={classes.collectionsBase}>
                     <CollectionsSearch classes={classes} handleSearchFieldChange={this.handleSearchFieldChange}/>
                     <CollectionsPosts classes={classes} posts={this.state.posts} postsSize={this.state.postsSize}/>
-                </div>
             </ToolbarBase>
         );
     }
