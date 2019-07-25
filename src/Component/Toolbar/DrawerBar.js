@@ -14,7 +14,10 @@ export default (function DrawerBar(props) {
     const mainListItems = [
         {title: "Collections", icon: <ShoppingCartIcon/>},
         {title: "Contact", icon: <PeopleIcon/>},
-        {title: "Simte", icon: <LayersIcon/>}
+    ];
+
+    const secondListItems = [
+        {title: "SimteToKorean", icon: <LayersIcon/>}
     ];
 
     const {classes, handleDrawerClose, open} = props;
@@ -34,7 +37,8 @@ export default (function DrawerBar(props) {
             </div>
             <Divider/>
             <List>
-                <ToolBarList Items={mainListItems} subheader={"main"}/>
+                <ToolBarList Items={mainListItems} subheader={"Main"}/>
+                <ToolBarList Items={secondListItems} subheader={"Study"}/>
             </List>
         </Drawer>
     )
