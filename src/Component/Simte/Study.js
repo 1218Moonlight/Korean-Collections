@@ -1,15 +1,30 @@
 import React from 'react'
-import Button from '@material-ui/core/Button'
+import List from '@material-ui/core/List'
+import ListItem from '@material-ui/core/ListItem'
+import ListItemAvatar from '@material-ui/core/ListItemAvatar'
+import Avatar from '@material-ui/core/Avatar'
+import Typography from '@material-ui/core/Typography'
+
 
 export default (function Study(props) {
-    const {step} = props;
+    const {classes, step} = props;
     return (
-        <div>
+        <List className={classes.simteRoot}>
             {step.map((s, i) => (
-                <div key={i}>
-                    <Button>{s}</Button>
-                </div>
+                <ListItem key={i}>
+                    <ListItemAvatar>
+                        <Avatar alt="Remy Sharp" src="https://source.unsplash.com/random"/>
+                    </ListItemAvatar>
+                    <Typography
+                        component="span"
+                        variant="body2"
+                        className={classes.inline}
+                        color="textPrimary"
+                    >
+                        {s}
+                    </Typography>
+                </ListItem>
             ))}
-        </div>
+        </List>
     )
 })
