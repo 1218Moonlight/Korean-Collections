@@ -1,20 +1,22 @@
 export const styles = theme => ({
-    noticePaper: {
-        position: 'relative',
-        backgroundColor: theme.palette.grey[800],
-        color: theme.palette.common.white,
-        marginBottom: theme.spacing(3),
-        backgroundImage: 'path(https://source.unsplash.com/user/erondu)',
-        backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
+    root: {
+        // maxWidth: 600,
+        // maxHeight: 600,
+        flexGrow: 1,
     },
-    noticeContent: {
-        position: 'relative',
-        padding: theme.spacing(3),
-        [theme.breakpoints.up('md')]: {
-            padding: theme.spacing(6),
-            paddingRight: 0,
-        },
+    header: {
+        display: 'flex',
+        alignItems: 'center',
+        height: 50,
+        paddingLeft: theme.spacing(4),
+        backgroundColor: theme.palette.background.default,
+    },
+    img: {
+        display: 'block',
+        // maxWidth: 600,
+        maxHeight: 600,
+        overflow: 'hidden',
+        width: '100%',
+        height: '100%'
     },
 });

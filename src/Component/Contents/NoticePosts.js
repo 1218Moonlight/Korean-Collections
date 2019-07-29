@@ -1,14 +1,27 @@
 export const posts = [
     {
-        title: "Notice1",
-        link: "https://kr-goods.shop/"
+        label: 'San Francisco – Oakland Bay Bridge, United States',
+        imgPath:
+            'https://source.unsplash.com/user/erondu',
     },
     {
-        title: "Notice2",
-        link: "https://kr-goods.shop/"
+        label: 'Bird',
+        imgPath:
+            'https://source.unsplash.com/user/erondu',
     },
     {
-        title: "Notice3",
-        link: "https://kr-goods.shop/"
-    }
+        label: 'Bali, Indonesia',
+        imgPath:
+            'https://source.unsplash.com/user/erondu',
+    },
+    {
+        label: 'NeONBRAND Digital Marketing, Las Vegas, United States',
+        imgPath:
+            'https://source.unsplash.com/user/erondu',
+    },
+    {
+        label: 'Goč, Serbia',
+        imgPath:
+            'https://source.unsplash.com/user/erondu',
+    },
 ];
