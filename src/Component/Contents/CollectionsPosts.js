@@ -1,57 +1,35 @@
+import spaghettiRamen from '../../Resources/img/foods/noodles/Spaghetti-Ramen.jpg'
+import seafoodRamen from '../../Resources/img/foods/noodles/Seafood-Ramen.jpg'
+import jinjjaJjolmyeon from '../../Resources/img/foods/noodles/Jinjja-Jjolmyeon.jpg'
+import BuldakStirFriedNoodles from '../../Resources/img/foods/noodles/Buldak-stir-fried-noodles.jpg'
+
 export const posts = [
     {
-        title: 'Shin Ramen',
-        url: '"https://source.unsplash.com/random"',
-        tag:'food',
+        title: 'Spaghetti Ramen',
+        path: spaghettiRamen,
+        tag:['foods', 'noodles'], // 0 : top category, 1 : second category
         description:
-            'Shin Ramen!',
+            'Spaghetti Ramen!',
     },
     {
-        title: 'Bowl',
-        url: "https://source.unsplash.com/random",
+        title: 'Seafood Ramen',
+        path: seafoodRamen,
+        tag:['foods', 'noodles'],
         description:
-            'Bowl!',
+            'Seafood Ramen!',
     },
     {
-        title: 'Cosmetics',
-        url: "https://source.unsplash.com/random",
+        title: 'Jinjja Jjolmyeon',
+        path: jinjjaJjolmyeon,
+        tag:['foods', 'noodles'],
         description:
-            'Cosmetics!',
+            'Jinjja Jjolmyeon!',
     },
     {
-        title: 'weapon',
-        url: "https://source.unsplash.com/random",
+        title: 'Buldak Stir-Fried Noodles',
+        path: BuldakStirFriedNoodles,
+        tag:['foods', 'noodles'],
         description:
-            'weapon!',
-    },
-    {
-        title: 'Snacks',
-        url: "https://source.unsplash.com/random",
-        description:
-            'Snacks!',
-    },
-    {
-        title: 'Drink',
-        url: "https://source.unsplash.com/random",
-        description:
-            'Drink!',
-    },
-    {
-        title: 'Armor',
-        url: "https://source.unsplash.com/random",
-        description:
-            'Armor!',
-    },
-    {
-        title: 'Dress',
-        url: "https://source.unsplash.com/random",
-        description:
-            'Dress!',
-    },
-    {
-        title: 'Dress2',
-        url: "https://source.unsplash.com/random",
-        description:
-            'Dress2!',
+            'Buldak Stir-Fried Noodles!',
     },
 ];

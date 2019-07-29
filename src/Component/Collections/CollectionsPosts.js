@@ -49,7 +49,7 @@ export default (class CollectionsPosts extends Component {
                                     focusVisibleClassName={classes.focusVisible}>
                                       <span className={classes.imageSrc}
                                             style={{
-                                                backgroundImage: `url(${image.url})`,
+                                                backgroundImage: `url(${image.path})`,
                                             }}/>
                                     <span className={classes.imageBackdrop}/>
                                     <span className={classes.imageButton}>
@@ -67,7 +67,7 @@ export default (class CollectionsPosts extends Component {
                         ))}
                     </Grid>
                 </div>
-                <div align="center" className={classes.buttonContainer}>
+                <div align="center">
                     <Button onClick={this.handleChangeIndexDown}>BEFOR</Button>
                     <Button color={'primary'}>{this.state.page}</Button>
                     <Button onClick={this.handleChangeIndexUp}>NEXT</Button>

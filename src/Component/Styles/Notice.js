@@ -4,7 +4,7 @@ export const styles = theme => ({
         backgroundColor: theme.palette.grey[800],
         color: theme.palette.common.white,
         marginBottom: theme.spacing(3),
-        backgroundImage: 'url(https://source.unsplash.com/user/erondu)',
+        backgroundImage: 'path(https://source.unsplash.com/user/erondu)',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
