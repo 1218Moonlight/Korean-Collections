@@ -35,7 +35,10 @@ export default (class CollectionsPosts extends Component {
         }
     };
 
-    dialogHandleClickOpen = () => {
+    dialogHandleClickOpen = (e) => {
+        // TODO: target.value
+        e.preventDefault();
+        console.log(e.currentTarget.value);
         this.setState({
             open: true
         })
@@ -64,6 +67,7 @@ export default (class CollectionsPosts extends Component {
                                     focusRipple
                                     key={image.title}
                                     className={classes.image}
+                                    value={"test"}
                                     focusVisibleClassName={classes.focusVisible}>
                                       <span className={classes.imageSrc}
                                             style={{
