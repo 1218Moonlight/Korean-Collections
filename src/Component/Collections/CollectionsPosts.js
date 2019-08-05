@@ -3,7 +3,7 @@ import Button from '@material-ui/core/Button'
 import ButtonBase from '@material-ui/core/ButtonBase'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
-import FullScreen from '../Dialog/fullScreen'
+import DialogBase from '../Dialog/Base'
 
 
 export default (class CollectionsPosts extends Component {
@@ -12,7 +12,8 @@ export default (class CollectionsPosts extends Component {
         start: 0,
         end: 8,
         collectionsCount: 8,
-        open: false
+        open:false,
+        dialogValue: ''
     };
 
     handleChangeIndexUp = () => {
@@ -36,11 +37,11 @@ export default (class CollectionsPosts extends Component {
     };
 
     dialogHandleClickOpen = (e) => {
-        // TODO: target.value
         e.preventDefault();
-        console.log(e.currentTarget.value);
+        console.log();
         this.setState({
-            open: true
+            open: true,
+            dialogValue: JSON.parse(e.currentTarget.value)
         })
     };
 
@@ -56,7 +57,7 @@ export default (class CollectionsPosts extends Component {
         return (
             <div>
                 {/* === dialog === */}
-                <FullScreen open={this.state.open} handleClose={this.dialogHandleClose} title={"A"} info={"B"}/>
+                <DialogBase dialogHandleClose={this.dialogHandleClose} open={this.state.open} dialogValue={this.state.dialogValue}/>
                 {/* === ====== === */}
                 <div className={classes.root}>
                     <Grid container spacing={2}>
@@ -67,7 +68,7 @@ export default (class CollectionsPosts extends Component {
                                     focusRipple
                                     key={image.title}
                                     className={classes.image}
-                                    value={"test"}
+                                    value={JSON.stringify(image)}
                                     focusVisibleClassName={classes.focusVisible}>
                                       <span className={classes.imageSrc}
                                             style={{
