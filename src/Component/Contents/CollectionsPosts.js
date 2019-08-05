@@ -10,6 +10,7 @@ export const posts = [
         tag:['foods', 'noodles'], // 0 : top category, 1 : second category
         description:
             'Spaghetti Ramen!',
+        movie: 'vC_HGF0yGwU' // youtube id
     },
     {
         title: 'Seafood Ramen',
@@ -17,6 +18,7 @@ export const posts = [
         tag:['foods', 'noodles'],
         description:
             'Seafood Ramen!',
+        movie: 'vC_HGF0yGwU'
     },
     {
         title: 'Jinjja Jjolmyeon',
@@ -24,6 +26,7 @@ export const posts = [
         tag:['foods', 'noodles'],
         description:
             'Jinjja Jjolmyeon!',
+        movie: 'vC_HGF0yGwU'
     },
     {
         title: 'Buldak Stir-Fried Noodles',
@@ -31,5 +34,6 @@ export const posts = [
         tag:['foods', 'noodles'],
         description:
             'Buldak Stir-Fried Noodles!',
+        movie: 'vC_HGF0yGwU'
     },
 ];

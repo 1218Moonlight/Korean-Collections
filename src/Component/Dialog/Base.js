@@ -3,6 +3,7 @@ import {withStyles} from "@material-ui/core/styles/index";
 import {styles} from "../Styles/Dialog";
 import Slide from '@material-ui/core/Slide';
 import FullScreen from './fullScreen'
+import MovieBase from '../Movie/Base'
 
 export default withStyles(styles)(class DialogBase extends React.Component {
     state = {
@@ -14,7 +15,9 @@ export default withStyles(styles)(class DialogBase extends React.Component {
     render() {
         const {classes, dialogHandleClose, open, dialogValue} = this.props;
         return (
-            <FullScreen open={open} handleClose={dialogHandleClose} title={dialogValue.title} info={dialogValue.description} classes={classes} transaction={this.state.Transition}/>
+            <FullScreen open={open} handleClose={dialogHandleClose} title={dialogValue.title}
+                        info={dialogValue.description} classes={classes} transaction={this.state.Transition}
+                        img={dialogValue.path} movie={<MovieBase setVideoId={dialogValue.movie}/>}/>
         )
     }
 })

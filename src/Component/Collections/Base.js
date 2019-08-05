@@ -6,6 +6,7 @@ import CollectionsPosts from './CollectionsPosts'
 import CollectionsSearch from './CollectionsSearch'
 import {posts} from '../Contents/CollectionsPosts'
 
+
 export default withStyles(styles)(class CollectionsBase extends Component {
     state = {
         posts: posts,
@@ -34,8 +35,8 @@ export default withStyles(styles)(class CollectionsBase extends Component {
         const {classes} = this.props;
         return (
             <ToolbarBase>
-                    <CollectionsSearch classes={classes} handleSearchFieldChange={this.handleSearchFieldChange}/>
-                    <CollectionsPosts classes={classes} posts={this.state.posts} postsSize={this.state.postsSize}/>
+                <CollectionsSearch classes={classes} handleSearchFieldChange={this.handleSearchFieldChange}/>
+                <CollectionsPosts classes={classes} posts={this.state.posts} postsSize={this.state.postsSize}/>
             </ToolbarBase>
         );
     }

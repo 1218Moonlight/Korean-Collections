@@ -1,9 +1,5 @@
 import React from 'react';
 import Dialog from '@material-ui/core/Dialog';
-import ListItemText from '@material-ui/core/ListItemText';
-import ListItem from '@material-ui/core/ListItem';
-import List from '@material-ui/core/List';
-import Divider from '@material-ui/core/Divider';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import IconButton from '@material-ui/core/IconButton';
@@ -11,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import CloseIcon from '@material-ui/icons/Close';
 
 export default function FullScreen(props) {
-    const {open, handleClose, title, info, classes, transaction} = props;
+    const {open, handleClose, title, movie, classes, transaction} = props;
     return (
         <div>
             <Dialog fullScreen open={open} onClose={handleClose}
@@ -26,12 +22,7 @@ export default function FullScreen(props) {
                         </Typography>
                     </Toolbar>
                 </AppBar>
-                <List>
-                    <ListItem button>
-                        <ListItemText primary={info}/>
-                    </ListItem>
-                    <Divider/>
-                </List>
+                {movie}
             </Dialog>
         </div>
     );
