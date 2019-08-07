@@ -16,8 +16,9 @@ export default withStyles(styles)(class DialogBase extends React.Component {
         const {classes, dialogHandleClose, open, dialogValue} = this.props;
         return (
             <FullScreen open={open} handleClose={dialogHandleClose} title={dialogValue.title}
-                        info={dialogValue.description} classes={classes} transaction={this.state.Transition}
-                        img={dialogValue.path} movie={<MovieBase setVideoId={dialogValue.movie}/>}/>
+                        classes={classes} transaction={this.state.Transition}
+                        img={dialogValue.path}
+                        movie={<MovieBase setVideoId={dialogValue.movie} info={dialogValue.description}/>}/>
         )
     }
 })

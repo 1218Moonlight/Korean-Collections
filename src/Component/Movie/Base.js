@@ -10,7 +10,7 @@ export default withStyles(styles)(class MovieBase extends React.Component {
             width: '80%',
         };
 
-        const {setVideoId, classes} = this.props;
+        const {setVideoId, classes, info} = this.props;
 
         return (
             <div className={classes.rootDiv} align="center">
@@ -23,7 +23,7 @@ export default withStyles(styles)(class MovieBase extends React.Component {
                 </div>
                 <div className={classes.borderDiv}/>
                 <div>
-                    <p>hello</p>
+                    <p>{info}</p>
                 </div>
 
             </div>
