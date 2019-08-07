@@ -1,26 +1,30 @@
 import React from 'react';
 import YouTube from 'react-youtube';
+import {withStyles} from "@material-ui/core/styles/index";
+import {styles} from "../Styles/Movie";
 
-export default class MovieBase extends React.Component {
+export default withStyles(styles)(class MovieBase extends React.Component {
     render() {
         const opts = {
             height: '100%',
-            width: '100%',
+            width: '80%',
         };
 
-        const {setVideoId} = this.props;
+        const {setVideoId, classes} = this.props;
 
         return (
-            <YouTube
-                videoId={setVideoId}
-                opts={opts}
-                onReady={this._onReady}
-            />
+            <div className={classes.root} align="center">
+                <YouTube
+                    videoId={setVideoId}
+                    opts={opts}
+                    onReady={MovieBase._onReady}
+                />
+            </div>
         );
     }
 
-    _onReady(event) {
+    static _onReady(event) {
         // access to player in all event handlers via event.target
         event.target.pauseVideo();
     }
-}
+})
