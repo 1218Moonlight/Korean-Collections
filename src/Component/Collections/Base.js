@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {styles} from "../Styles/Collections";
+import {styles} from "../../Resources/Styles/Collections";
 import {withStyles} from "@material-ui/core/styles/index";
 import ToolbarBase from '../Toolbar/Base'
 import CollectionsPosts from './CollectionsPosts'

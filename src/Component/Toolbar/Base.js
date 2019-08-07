@@ -1,6 +1,6 @@
 import React from 'react';
 import {withStyles} from "@material-ui/core/styles/index";
-import {styles} from "../Styles/Toolbar";
+import {styles} from "../../Resources/Styles/Toolbar";
 
 import TitleBar from './TitleBar'
 import DrawerBar from './DrawerBar'

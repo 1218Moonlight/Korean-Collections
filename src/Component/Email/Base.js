@@ -1,5 +1,5 @@
 import React from 'react'
-import {styles} from "../Styles/Email";
+import {styles} from "../../Resources/Styles/Email";
 import {withStyles} from "@material-ui/core/styles/index";
 import EmailMain from './EmailMain'
 import ToolbarBase from '../Toolbar/Base'

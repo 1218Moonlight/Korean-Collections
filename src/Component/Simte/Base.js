@@ -1,5 +1,5 @@
 import React from 'react';
-import {styles} from "../Styles/Simte";
+import {styles} from "../../Resources/Styles/Simte";
 import {withStyles} from "@material-ui/core/styles/index";
 import ToolbarBase from '../Toolbar/Base'
 import {step} from '../Contents/Simte'

@@ -1,6 +1,6 @@
 import React from 'react'
 import {withStyles} from "@material-ui/core/styles/index";
-import {styles} from "../Styles/Dialog";
+import {styles} from "../../Resources/Styles/Dialog";
 import Slide from '@material-ui/core/Slide';
 import FullScreen from './fullScreen'
 import MovieBase from '../Movie/Base'

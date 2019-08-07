@@ -1,7 +1,7 @@
 import React from 'react';
 import YouTube from 'react-youtube';
 import {withStyles} from "@material-ui/core/styles/index";
-import {styles} from "../Styles/Movie";
+import {styles} from "../../Resources/Styles/Movie";
 
 export default withStyles(styles)(class MovieBase extends React.Component {
     render() {
