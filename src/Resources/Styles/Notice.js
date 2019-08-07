@@ -14,9 +14,13 @@ export const styles = theme => ({
     img: {
         display: 'block',
         // maxWidth: 600,
-        maxHeight: 600,
+        // maxHeight: 600,
         overflow: 'hidden',
-        width: '100%',
-        height: '100%'
+        width: '50%',
+        height: '50%',
+        [theme.breakpoints.down('xs')]: {
+            width: '100% !important',
+            height: '100% !important'
+        },
     },
 });
