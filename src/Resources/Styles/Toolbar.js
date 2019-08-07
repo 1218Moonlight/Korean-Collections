@@ -36,13 +36,17 @@ export const styles = theme => ({
         display: 'none',
     },
     drawerPaper: {
-        position: 'relative',
-        whiteSpace: 'nowrap',
+        // position: 'relative',
+        // whiteSpace: 'nowrap',
+        // width: drawerWidth,
+        // transition: theme.transitions.create('width', {
+        //     easing: theme.transitions.easing.sharp,
+        //     duration: theme.transitions.duration.enteringScreen,
+        // }),
+
+        // main 찌그러짐 방지
+        // main 潰れ防止
         width: drawerWidth,
-        transition: theme.transitions.create('width', {
-            easing: theme.transitions.easing.sharp,
-            duration: theme.transitions.duration.enteringScreen,
-        }),
     },
     drawerPaperClose: {
         overflowX: 'hidden',
