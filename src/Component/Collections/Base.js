@@ -4,7 +4,7 @@ import {withStyles} from "@material-ui/core/styles/index";
 import ToolbarBase from '../Toolbar/Base'
 import CollectionsPosts from './CollectionsPosts'
 import CollectionsSearch from './CollectionsSearch'
-import {posts} from '../Contents/CollectionsPosts'
+import {posts} from '../../Resources/Contents/CollectionsPosts'
 import DialogBase from '../Dialog/Base'
 
 

@@ -1,7 +1,7 @@
-import spaghettiRamen from '../../Resources/img/foods/noodles/Spaghetti-Ramen.jpg'
-import seafoodRamen from '../../Resources/img/foods/noodles/Seafood-Ramen.jpg'
-import jinjjaJjolmyeon from '../../Resources/img/foods/noodles/Jinjja-Jjolmyeon.jpg'
-import BuldakStirFriedNoodles from '../../Resources/img/foods/noodles/Buldak-stir-fried-noodles.jpg'
+import spaghettiRamen from '../img/foods/noodles/Spaghetti-Ramen.jpg'
+import seafoodRamen from '../img/foods/noodles/Seafood-Ramen.jpg'
+import jinjjaJjolmyeon from '../img/foods/noodles/Jinjja-Jjolmyeon.jpg'
+import BuldakStirFriedNoodles from '../img/foods/noodles/Buldak-stir-fried-noodles.jpg'
 
 export const posts = [
     {
