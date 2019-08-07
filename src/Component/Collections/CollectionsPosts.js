@@ -3,7 +3,6 @@ import Button from '@material-ui/core/Button'
 import ButtonBase from '@material-ui/core/ButtonBase'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
-import DialogBase from '../Dialog/Base'
 
 
 export default (class CollectionsPosts extends Component {
@@ -12,8 +11,6 @@ export default (class CollectionsPosts extends Component {
         start: 0,
         end: 8,
         collectionsCount: 8,
-        open:false,
-        dialogValue: ''
     };
 
     handleChangeIndexUp = () => {
@@ -36,35 +33,17 @@ export default (class CollectionsPosts extends Component {
         }
     };
 
-    dialogHandleClickOpen = (e) => {
-        e.preventDefault();
-        console.log();
-        this.setState({
-            open: true,
-            dialogValue: JSON.parse(e.currentTarget.value)
-        })
-    };
-
-    dialogHandleClose = () => {
-        this.setState({
-            open: false
-        })
-    };
-
     render() {
-        const {classes, posts} = this.props;
+        const {classes, posts, dialogHandleClickOpen} = this.props;
         const target = posts.slice(this.state.start, this.state.end);
         return (
             <div>
-                {/* === dialog === */}
-                <DialogBase dialogHandleClose={this.dialogHandleClose} open={this.state.open} dialogValue={this.state.dialogValue}/>
-                {/* === ====== === */}
                 <div className={classes.root}>
                     <Grid container spacing={2}>
                         {target.map(image => (
                             <Grid item key={image.title} xs={6} md={3}>
                                 <ButtonBase
-                                    onClick={this.dialogHandleClickOpen}
+                                    onClick={dialogHandleClickOpen}
                                     focusRipple
                                     key={image.title}
                                     className={classes.image}
