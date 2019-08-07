@@ -13,12 +13,19 @@ export default withStyles(styles)(class MovieBase extends React.Component {
         const {setVideoId, classes} = this.props;
 
         return (
-            <div className={classes.root} align="center">
-                <YouTube
-                    videoId={setVideoId}
-                    opts={opts}
-                    onReady={MovieBase._onReady}
-                />
+            <div className={classes.rootDiv} align="center">
+                <div>
+                    <YouTube
+                        videoId={setVideoId}
+                        opts={opts}
+                        onReady={MovieBase._onReady}
+                    />
+                </div>
+                <div className={classes.borderDiv}/>
+                <div>
+                    <p>hello</p>
+                </div>
+
             </div>
         );
     }
