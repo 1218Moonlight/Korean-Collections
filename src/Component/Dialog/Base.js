@@ -7,18 +7,43 @@ import MovieBase from '../Movie/Base'
 
 export default withStyles(styles)(class DialogBase extends React.Component {
     state = {
+        open: false,
+        value: '',
         Transition: React.forwardRef(function Transition(props, ref) {
             return <Slide direction="up" ref={ref} {...props} />;
-        }),
+        })
+    };
+
+
+    HandleClickOpen = (e) => {
+        e.preventDefault();
+        this.setState({
+            open: true,
+            value: JSON.parse(e.currentTarget.value)
+        })
+    };
+
+    HandleClose = () => {
+        this.setState({
+            open: false
+        })
     };
 
     render() {
-        const {classes, dialogHandleClose, open, dialogValue} = this.props;
+        const {classes} = this.props;
+        const {open, value, Transition} = this.state;
+
+
         return (
-            <FullScreen open={open} handleClose={dialogHandleClose} title={dialogValue.title}
-                        classes={classes} transaction={this.state.Transition}
-                        img={dialogValue.path}
-                        movie={<MovieBase setVideoId={dialogValue.movie} info={dialogValue.description}/>}/>
+            <div>
+                {this.props.render({
+                    HandleClickOpen: this.HandleClickOpen,
+                })}
+                <FullScreen open={open} handleClose={this.HandleClose} title={value.title}
+                            classes={classes} transaction={Transition}
+                            img={value.path}
+                            movie={<MovieBase setVideoId={value.movie} info={value.description}/>}/>
+            </div>
         )
     }
 })
