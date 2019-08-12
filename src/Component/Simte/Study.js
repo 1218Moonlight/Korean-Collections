@@ -21,14 +21,22 @@ export default (function Study(props) {
                             return <Avatar alt="Remy Sharp" src={B}/>
                         })()}
                     </ListItemAvatar>
-                    <Typography
-                        component="span"
-                        variant="body2"
-                        className={classes.inline}
-                        color="textPrimary"
-                    >
-                        {s}
-                    </Typography>
+                    <div>
+                        <Typography
+                            component="div"
+                            variant={"caption"}
+                            color="primary"
+                        >
+                            {s[0]}
+                        </Typography>
+                        <Typography
+                            component="div"
+                            variant={"overline"}
+                            color="secondary"
+                        >
+                            {s[1]}
+                        </Typography>
+                    </div>
                 </ListItem>
             ))}
         </List>

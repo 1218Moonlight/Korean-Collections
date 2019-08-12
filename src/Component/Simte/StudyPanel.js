@@ -19,7 +19,7 @@ export default function ControlledExpansionPanels(props) {
                         id="panel1bh-header"
                     >
                         <Typography className={classes.heading}>Step {i + 1}</Typography>
-                        <Typography className={classes.secondaryHeading}>{step[0]}</Typography>
+                        <Typography className={classes.secondaryHeading}>{step[0][0]}</Typography>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
                         <Study classes={classes} step={step}/>

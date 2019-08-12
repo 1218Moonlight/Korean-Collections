@@ -1,11 +1,8 @@
 export const styles = theme => ({
     simteRoot: {
         width: '100%',
-        maxWidth: 360,
+        // maxWidth: 360,
         backgroundColor: theme.palette.background.paper,
-    },
-    inline: {
-        display: 'inline',
     },
     studyPanelRoot: {
         width: '100%',

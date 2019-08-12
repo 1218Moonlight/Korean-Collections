@@ -7,7 +7,7 @@ export default withStyles(styles)(class MovieBase extends React.Component {
     render() {
         const opts = {
             height: '100%',
-            width: '80%',
+            width: '100%',
         };
 
         const {setVideoId, classes, info} = this.props;

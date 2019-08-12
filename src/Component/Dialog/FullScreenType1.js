@@ -25,8 +25,9 @@ export default function FullScreenType1(props) { // Notice Dialog
                 <div>
                     <a href={link}><img src={img} alt={title} className={classes.img}/></a>
                 </div>
-                <p>{info}</p>
-
+                <Typography variant="h6" className={classes.borderDiv}>
+                    {info}
+                </Typography>
             </Dialog>
         </div>
     );
