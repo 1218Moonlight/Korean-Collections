@@ -12,10 +12,10 @@ import {autoPlay} from 'react-swipeable-views-utils';
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
 
 export default function (props) {
-    const {classes, tutorialSteps} = props;
+    const {classes, posts, dialogHandleClickOpen} = props;
     const theme = useTheme();
     const [activeStep, setActiveStep] = React.useState(0);
-    const maxSteps = tutorialSteps.length;
+    const maxSteps = posts.length;
 
     function handleNext() {
         setActiveStep(prevActiveStep => prevActiveStep + 1);
@@ -32,7 +32,7 @@ export default function (props) {
     return (
         <div className={classes.root} align="center">
             <Paper square elevation={0} className={classes.header}>
-                <Typography >{tutorialSteps[activeStep].label}</Typography>
+                <Typography>{posts[activeStep].title}</Typography>
             </Paper>
             <AutoPlaySwipeableViews
                 axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
@@ -40,10 +40,10 @@ export default function (props) {
                 onChangeIndex={handleStepChange}
                 enableMouseEvents
             >
-                {tutorialSteps.map((step, index) => (
-                    <div key={step.label}>
+                {posts.map((noti, index) => (
+                    <div key={noti.title} data-value={JSON.stringify(noti)} onClick={dialogHandleClickOpen}>
                         {Math.abs(activeStep - index) <= 2 ? (
-                            <img className={classes.img} src={step.imgPath} alt={step.label}/>
+                            <img className={classes.img} src={noti.path} alt={noti.title}/>
                         ) : null}
                     </div>
                 ))}

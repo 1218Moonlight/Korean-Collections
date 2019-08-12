@@ -16,10 +16,9 @@ export default withStyles(styles)(class DialogBase extends React.Component {
 
 
     HandleClickOpen = (e) => {
-        e.preventDefault();
         this.setState({
             open: true,
-            value: JSON.parse(e.currentTarget.value)
+            value: JSON.parse(e.currentTarget.dataset.value)
         })
     };
 

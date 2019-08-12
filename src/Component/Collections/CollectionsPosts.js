@@ -47,7 +47,7 @@ export default (class CollectionsPosts extends Component {
                                     focusRipple
                                     key={image.title}
                                     className={classes.image}
-                                    value={JSON.stringify(image)}
+                                    data-value={JSON.stringify(image)}
                                     focusVisibleClassName={classes.focusVisible}>
                                       <span className={classes.imageSrc}
                                             style={{
