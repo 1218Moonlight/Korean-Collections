@@ -52,7 +52,7 @@ export default withStyles(styles)(class DialogBase extends React.Component {
                     })}
                     <FullScreenType1 open={open} handleClose={this.HandleClose} title={value.title}
                                      classes={classes} transaction={Transition} info={value.description}
-                                     img={value.img}/>
+                                     img={value.img} link={value.link}/>
                 </div>
             )
         }

@@ -7,7 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import CloseIcon from '@material-ui/icons/Close';
 
 export default function FullScreenType1(props) { // Notice Dialog
-    const {open, handleClose, title, info, classes, transaction, img} = props;
+    const {open, handleClose, title, info, classes, transaction, img, link} = props;
     return (
         <div>
             <Dialog fullScreen open={open} onClose={handleClose}
@@ -23,7 +23,7 @@ export default function FullScreenType1(props) { // Notice Dialog
                     </Toolbar>
                 </AppBar>
                 <div>
-                    <img src={img} className={classes.img}/>
+                    <a href={link}><img src={img} alt={title} className={classes.img}/></a>
                 </div>
                 <p>{info}</p>
 

@@ -10,13 +10,15 @@ export const posts = [
         title: 'How to order',
         path: contact,
         description:"How to order!",
-        img: charge
+        img: charge,
+        link: "http://www.emspremium.com/delivery/delivery02.php?gubun=B"
     },
     {
         type: type,
         title: 'delivery',
         path: delevery,
         description:"delevery!",
-        img: charge
+        img: charge,
+        link: "http://www.emspremium.com/delivery/delivery02.php?gubun=B"
     },
 ];
