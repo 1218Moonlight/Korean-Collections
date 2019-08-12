@@ -51,7 +51,8 @@ export default withStyles(styles)(class DialogBase extends React.Component {
                         HandleClickOpen: this.HandleClickOpen,
                     })}
                     <FullScreenType1 open={open} handleClose={this.HandleClose} title={value.title}
-                                     classes={classes} transaction={Transition} info={value.description}/>
+                                     classes={classes} transaction={Transition} info={value.description}
+                                     img={value.img}/>
                 </div>
             )
         }

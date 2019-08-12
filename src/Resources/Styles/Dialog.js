@@ -6,4 +6,8 @@ export const styles = theme => ({
         marginLeft: theme.spacing(2),
         flex: 1,
     },
+    img:{
+        width: '100%',
+        height: '100%',
+    }
 });
