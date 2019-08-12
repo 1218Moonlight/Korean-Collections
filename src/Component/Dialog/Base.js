@@ -2,7 +2,8 @@ import React from 'react'
 import {withStyles} from "@material-ui/core/styles/index";
 import {styles} from "../../Resources/Styles/Dialog";
 import Slide from '@material-ui/core/Slide';
-import FullScreen from './fullScreen'
+import FullScreenType0 from './FullScreenType0'
+import FullScreenType1 from './FullScreenType1'
 import MovieBase from '../Movie/Base'
 
 export default withStyles(styles)(class DialogBase extends React.Component {
@@ -32,17 +33,28 @@ export default withStyles(styles)(class DialogBase extends React.Component {
         const {classes} = this.props;
         const {open, value, Transition} = this.state;
 
+        if (value.type === 0) { // Collections Dialog (Type Index 0)
+            return (
+                <div>
+                    {this.props.render({
+                        HandleClickOpen: this.HandleClickOpen,
+                    })}
+                    <FullScreenType0 open={open} handleClose={this.HandleClose} title={value.title}
+                                     classes={classes} transaction={Transition}
+                                     movie={<MovieBase setVideoId={value.movie} info={value.description}/>}/>
+                </div>
+            )
+        } else { // Notice Dialog (Type Index 1)
+            return (
+                <div>
+                    {this.props.render({
+                        HandleClickOpen: this.HandleClickOpen,
+                    })}
+                    <FullScreenType1 open={open} handleClose={this.HandleClose} title={value.title}
+                                     classes={classes} transaction={Transition} info={value.description}/>
+                </div>
+            )
+        }
 
-        return (
-            <div>
-                {this.props.render({
-                    HandleClickOpen: this.HandleClickOpen,
-                })}
-                <FullScreen open={open} handleClose={this.HandleClose} title={value.title}
-                            classes={classes} transaction={Transition}
-                            img={value.path}
-                            movie={<MovieBase setVideoId={value.movie} info={value.description}/>}/>
-            </div>
-        )
     }
 })
