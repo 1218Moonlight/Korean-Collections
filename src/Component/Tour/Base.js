@@ -35,10 +35,8 @@ export default (function TourBase() {
             <ToolbarBase>
                 {(() => {
                     // console.log(items, numOfRows, pageNo, totalCount);
-                    let data = [];
-                    items.map(item => {
-                        data.push({area: item.name._text, index: item.rnum._text, code: item.code._text})
-                    });
+                    const data = [];
+                    items.map(item => data.push({area: item.name._text, index: item.rnum._text, code: item.code._text}));
 
                     if (numOfRows === '0') {
                         return (<p>Empty</p>) // Todo
