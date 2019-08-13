@@ -5,18 +5,23 @@ import IconButton from '@material-ui/core/IconButton';
 import Drawer from '@material-ui/core/Drawer';
 import List from '@material-ui/core/List';
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft';
+import TripOrigin from '@material-ui/icons/TripOrigin';
 import ToolBarList from './ToolbarList'
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import PeopleIcon from '@material-ui/icons/People';
 import LayersIcon from '@material-ui/icons/Layers';
 
 export default (function DrawerBar(props) {
-    const mainListItems = [
+    const mainItems = [
         {title: "Collections", icon: <ShoppingCartIcon/>},
         {title: "Contact", icon: <PeopleIcon/>},
     ];
 
-    const secondListItems = [
+    const tourItems = [
+        {title: "Tour", icon: <TripOrigin/>},
+    ];
+
+    const studyItems = [
         {title: "SimteToKorean", icon: <LayersIcon/>}
     ];
 
@@ -37,8 +42,11 @@ export default (function DrawerBar(props) {
             </div>
             <Divider/>
             <List>
-                <ToolBarList Items={mainListItems} subheader={"Main"}/>
-                <ToolBarList Items={secondListItems} subheader={"Study"}/>
+                <ToolBarList Items={mainItems} subheader={"Main"}/>
+                <Divider />
+                <ToolBarList Items={tourItems} subheader={"Tour"}/>
+                <Divider />
+                <ToolBarList Items={studyItems} subheader={"Study"}/>
             </List>
         </Drawer>
     )
