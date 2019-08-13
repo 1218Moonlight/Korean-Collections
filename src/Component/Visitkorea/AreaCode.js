@@ -40,7 +40,7 @@ export default (class AreaCode extends React.Component {
 
     _getAreaCode = (_getXml2Json) => {
         let request = require('request');
-        let url = 'http://api.visitkorea.or.kr/openapi/service/rest/EngService/areaCode';
+        let url = 'https://api.visitkorea.or.kr/openapi/service/rest/EngService/areaCode';
 
         let queryParams = '?' + encodeURIComponent('ServiceKey') + '=RFTC3k4z2wJ5GJHf53NSi218tLreQZw%2F0bboS1I45pE6w1z8v%2ByLQi12XTkrwVDgeeqd0GpEy67fbvoIp83buQ%3D%3D';
         queryParams += '&' + encodeURIComponent('ServiceKey') + '=' + encodeURIComponent('인증키 (URL- Encode)');
