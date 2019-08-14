@@ -13,7 +13,7 @@ export default function InformationFoods() {
     // ));
 
     let columns = [
-        {title: "Sortation", field: "sortation"},
+        // {title: "Sortation", field: "sortation"},
         {title: "Name", field: "name"},
         {title: "Eng", field: "eng"},
         {title: "Info", field: "info"}
@@ -22,7 +22,8 @@ export default function InformationFoods() {
     let data = [];
     foods_info_json.root.Row.map(r => (
         // console.log(r.구분._text)
-        data.push({"sortation": r.구분._text, "name": r.음식명._text, "eng": r.영문._text, "info": r.음식설명._text})
+        data.push({"name": r.음식명._text, "eng": r.영문._text, "info": r.음식설명._text})
+        // data.push({"sortation": r.구분._text, "name": r.음식명._text, "eng": r.영문._text, "info": r.음식설명._text})
     ));
     // console.log(columns);
 
