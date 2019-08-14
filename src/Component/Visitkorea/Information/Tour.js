@@ -6,6 +6,7 @@ import GridList from '@material-ui/core/GridList';
 import GridListTile from '@material-ui/core/GridListTile';
 import TourJson from '../../../Resources/Contents/Tour';
 import TourImgHandler from '../../../Resources/img/Tour/TourImgHandler'
+import Typography from '@material-ui/core/Typography'
 
 // TODO : need for refactoring
 const useStyles = makeStyles(styles);
@@ -24,6 +25,10 @@ export default function InformationTour() {
                         </GridListTile>
                     ))}
                 </GridList>
+                <Typography variant="overline" display="block" gutterBottom
+                            align={'center'}>
+                    출처 : 한국관광공사
+                </Typography>
             </div>
         </ToolbarBase>
     );
