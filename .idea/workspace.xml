@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a950795a-3117-4176-ad40-ba3f7f5f7ace" name="Default" comment="">
+    <list default="true" id="a950795a-3117-4176-ad40-ba3f7f5f7ace" name="Default" comment="ADD Licens">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Component/Utils/xml2json.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Component/Visitkorea/Information/Foods.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Resources/Visitkorea/한국국제교류재단_한국음식정보_영어_201811.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
-      <change beforePath="$PROJECT_DIR$/src/Email/Base.js" afterPath="$PROJECT_DIR$/src/Email/Base.js" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Styles/Main.js" afterPath="$PROJECT_DIR$/src/Home/Styles/Main.js" />
-      <change beforePath="$PROJECT_DIR$/src/Home/Toolbar/SecondBar.js" afterPath="$PROJECT_DIR$/src/Home/Toolbar/SecondBar.js" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Toolbar/DrawerBar.js" afterPath="$PROJECT_DIR$/src/Component/Toolbar/DrawerBar.js" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Tour/Base.js" afterPath="$PROJECT_DIR$/src/Component/Tour/Base.js" />
+      <change beforePath="$PROJECT_DIR$/src/Component/Visitkorea/AreaCode.js" afterPath="$PROJECT_DIR$/src/Component/Visitkorea/AreaCode.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path="$PROJECT_DIR$/.idea/httpRequests/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,26 +23,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="SecondBar.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Home/Toolbar/SecondBar.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="Base.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Component/Tour/Base.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="125">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+      <file leaf-file-name="Foods.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Component/Visitkorea/Information/Foods.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="500">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,87 +51,109 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTTP Request" />
         <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>/main</find>
-      <find>main</find>
-      <find>router</find>
-      <find>Korean-Collections</find>
-      <find>cardDetails</find>
-      <find>mainGrid</find>
-      <find>SubFeaturedPostsPagination</find>
-      <find>make</find>
-      <find>useStyle</find>
-      <find>useStyles</find>
-      <find>button</find>
-      <find>style</find>
-      <find>prima</find>
-      <find>fullWidth</find>
-      <find>media</find>
-      <find>search</find>
+      <find>value</find>
+      <find>onclick</find>
+      <find>handleSearchFieldChange</find>
+      <find>state.open</find>
+      <find>imageSrc</find>
+      <find>open</find>
+      <find>dialogValue</find>
+      <find>drawerPaperClose</find>
+      <find>menuButtonHidden</find>
+      <find>contentShift</find>
+      <find>appBarShift</find>
+      <find>drawer</find>
+      <find>border</find>
+      <find>if</find>
+      <find>useState</find>
+      <find>usestate</find>
+      <find>handleAddValue1</find>
+      <find>label</find>
+      <find>path</find>
+      <find>imgPath</find>
+      <find>posts</find>
+      <find>&lt;img</find>
+      <find>SpeechSynthesisUtterance</find>
+      <find>setstate</find>
+      <find>e.</find>
+      <find>_getXml2Json</find>
+      <find>https://fonts.googleapis.com/icon?family=Material+Icons</find>
+      <find>mataria</find>
+      <find>theme.</find>
+      <find>responseXML</find>
     </findStrings>
+    <replaceStrings>
+      <replace>url: '&quot;https://source.unsplash.com/random&quot;',</replace>
+      <replace>&quot;https://source.unsplash.com/random&quot;</replace>
+      <replace>title</replace>
+      <replace>path</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build/index.html" />
-        <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/Toolbar/Base.js" />
+        <option value="$PROJECT_DIR$/src/Component/Contents/NoticePosts.js" />
+        <option value="$PROJECT_DIR$/src/Component/Styles/Toolbar.js" />
+        <option value="$PROJECT_DIR$/src/Component/Styles/Notice.js" />
+        <option value="$PROJECT_DIR$/src/Component/Styles/Collections.js" />
+        <option value="$PROJECT_DIR$/src/Component/Styles/Dialog.js" />
+        <option value="$PROJECT_DIR$/src/Component/Contents/CollectionsPosts.js" />
+        <option value="$PROJECT_DIR$/src/Component/Dialog/fullScreen.js" />
+        <option value="$PROJECT_DIR$/src/Component/Styles/Movie.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/Main/SubFeaturedPagination.js" />
-        <option value="$PROJECT_DIR$/src/Main/posts.js" />
-        <option value="$PROJECT_DIR$/src/Main/Posts.js" />
-        <option value="$PROJECT_DIR$/src/Main/css.jsx" />
-        <option value="$PROJECT_DIR$/src/Main/css.js" />
-        <option value="$PROJECT_DIR$/src/Main/test.js" />
-        <option value="$PROJECT_DIR$/src/Main/SubFeaturedPostsPagination.js" />
-        <option value="$PROJECT_DIR$/src/Styles/MainFeaturedPost.js" />
-        <option value="$PROJECT_DIR$/src/Toolbar/FirstBar.js" />
-        <option value="$PROJECT_DIR$/src/Main/MainFeaturedPost.js" />
-        <option value="$PROJECT_DIR$/src/Styles/SecondBar.js" />
-        <option value="$PROJECT_DIR$/src/Styles/FooterBase.js" />
-        <option value="$PROJECT_DIR$/src/Footer/Email.js" />
-        <option value="$PROJECT_DIR$/src/Footer/Base.js" />
-        <option value="$PROJECT_DIR$/src/Toolbar/SecondBar.js" />
-        <option value="$PROJECT_DIR$/src/Main/Email.js" />
-        <option value="$PROJECT_DIR$/src/Styles/SubFeaturedPosts.js" />
-        <option value="$PROJECT_DIR$/src/Main/SubFeaturedSearch.js" />
-        <option value="$PROJECT_DIR$/src/Main/SubFeaturedPosts.js" />
-        <option value="$PROJECT_DIR$/src/Contents/SubFeaturedPost.js" />
-        <option value="$PROJECT_DIR$/src/Styles/Email.js" />
-        <option value="$PROJECT_DIR$/src/Styles/SubFeatured.js" />
-        <option value="$PROJECT_DIR$/src/Styles/FirstBar.js" />
-        <option value="$PROJECT_DIR$/src/Test/App.js" />
-        <option value="$PROJECT_DIR$/src/Test/index.js" />
-        <option value="$PROJECT_DIR$/src/Test/Root.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/Test/Home.js" />
-        <option value="$PROJECT_DIR$/src/Test/About.js" />
-        <option value="$PROJECT_DIR$/src/Main/Base.js" />
-        <option value="$PROJECT_DIR$/src/Home/Styles/TitleBar.js" />
-        <option value="$PROJECT_DIR$/src/Home/Styles/SecondBar.js" />
-        <option value="$PROJECT_DIR$/src/Home/Toolbar/TitleBar.js" />
-        <option value="$PROJECT_DIR$/src/Home/Styles/Toolbar.js" />
-        <option value="$PROJECT_DIR$/src/Home/Styles/MainFeaturedPost.js" />
-        <option value="$PROJECT_DIR$/src/Home/Styles/SubFeatured.js" />
-        <option value="$PROJECT_DIR$/src/Home/Main/MainFeaturedPost.js" />
-        <option value="$PROJECT_DIR$/src/Home/Main/Email.js" />
-        <option value="$PROJECT_DIR$/src/Home/Main/SubFeaturedSearch.js" />
-        <option value="$PROJECT_DIR$/src/Home/Base.js" />
-        <option value="$PROJECT_DIR$/src/Home/Main/Base.js" />
-        <option value="$PROJECT_DIR$/src/Home/Toolbar/Base.js" />
-        <option value="$PROJECT_DIR$/src/Home/Main/SubFeaturedPosts.js" />
-        <option value="$PROJECT_DIR$/src/Home/Styles/Main.js" />
-        <option value="$PROJECT_DIR$/src/Email/Base.js" />
+        <option value="$PROJECT_DIR$/src/Resources/Styles/Movie.js" />
+        <option value="$PROJECT_DIR$/src/Component/Toolbar/TitleBar.js" />
+        <option value="$PROJECT_DIR$/src/Resources/Styles/Toolbar.js" />
+        <option value="$PROJECT_DIR$/src/Component/Dialog/Utils.js" />
+        <option value="$PROJECT_DIR$/src/Resources/Contents/CollectionsPosts.js" />
+        <option value="$PROJECT_DIR$/src/Component/Notice/Base.js" />
+        <option value="$PROJECT_DIR$/src/Component/Notice/NoticeStepper.js" />
+        <option value="$PROJECT_DIR$/src/Component/Collections/CollectionsPosts.js" />
+        <option value="$PROJECT_DIR$/src/Component/Dialog/Type0FullScreen.js" />
+        <option value="$PROJECT_DIR$/src/Component/Dialog/Type1FullScreen.js" />
+        <option value="$PROJECT_DIR$/src/Component/Dialog/FullScreen.js" />
+        <option value="$PROJECT_DIR$/src/Component/Dialog/FullScreenType0.js" />
+        <option value="$PROJECT_DIR$/src/Resources/Styles/Notice.js" />
+        <option value="$PROJECT_DIR$/src/Resources/Contents/NoticePosts.js" />
+        <option value="$PROJECT_DIR$/src/Component/Dialog/Base.js" />
+        <option value="$PROJECT_DIR$/src/Component/Dialog/FullScreenType1.js" />
+        <option value="$PROJECT_DIR$/src/Resources/Styles/Dialog.js" />
+        <option value="$PROJECT_DIR$/src/Component/Movie/Base.js" />
+        <option value="$PROJECT_DIR$/src/Component/Email/EmailMain.js" />
+        <option value="$PROJECT_DIR$/src/Resources/Styles/Email.js" />
+        <option value="$PROJECT_DIR$/src/Component/Simte/StudyPanel.js" />
+        <option value="$PROJECT_DIR$/src/Resources/Styles/Simte.js" />
+        <option value="$PROJECT_DIR$/src/Component/Toolbar/test.js" />
+        <option value="$PROJECT_DIR$/src/Component/Simte/Base.js" />
+        <option value="$PROJECT_DIR$/src/Component/Simte/Study.js" />
+        <option value="$PROJECT_DIR$/src/Resources/Contents/Simte.js" />
+        <option value="$PROJECT_DIR$/Http-Request.http" />
+        <option value="$PROJECT_DIR$/src/Component/Toolbar/Base.js" />
+        <option value="$PROJECT_DIR$/src/Component/Visitkorea/AreaCpde.js" />
+        <option value="$PROJECT_DIR$/src/Component/Collections/Base.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/Resources/Styles/Tour.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/Component/Visitkorea/AreaCode.js" />
+        <option value="$PROJECT_DIR$/src/Component/Toolbar/DrawerBar.js" />
+        <option value="$PROJECT_DIR$/src/Component/Tour/Base.js" />
+        <option value="$PROJECT_DIR$/src/Component/Visitkorea/Information/Base.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/Home/Toolbar/SecondBar.js" />
+        <option value="$PROJECT_DIR$/src/Component/Utils/Xml2Json.js" />
+        <option value="$PROJECT_DIR$/src/Resources/Visitkorea/한국국제교류재단_한국음식정보_영어_201811.js" />
+        <option value="$PROJECT_DIR$/src/Component/Utils/xml2json.js" />
+        <option value="$PROJECT_DIR$/src/Component/Visitkorea/Information/Foods.js" />
       </list>
     </option>
   </component>
@@ -156,8 +180,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="465" />
+    <option name="y" value="135" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -211,7 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -234,25 +257,48 @@
               <item name="Korean-Collections" type="b2602c69:ProjectViewProjectNode" />
               <item name="Korean-Collections" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Email" type="462c0819:PsiDirectoryNode" />
+              <item name="Component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Korean-Collections" type="b2602c69:ProjectViewProjectNode" />
               <item name="Korean-Collections" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="Component" type="462c0819:PsiDirectoryNode" />
+              <item name="Tour" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Korean-Collections" type="b2602c69:ProjectViewProjectNode" />
               <item name="Korean-Collections" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="Toolbar" type="462c0819:PsiDirectoryNode" />
+              <item name="Component" type="462c0819:PsiDirectoryNode" />
+              <item name="Visitkorea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Korean-Collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Korean-Collections" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Component" type="462c0819:PsiDirectoryNode" />
+              <item name="Visitkorea" type="462c0819:PsiDirectoryNode" />
+              <item name="Information" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Korean-Collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Korean-Collections" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Korean-Collections" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Korean-Collections" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Visitkorea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,16 +317,168 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\kmoon\Desktop\untitled\src\Main" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kmoon\Desktop\my\Korean-Collections\src\Email" />
-      <recent name="C:\Users\kmoon\Desktop\my\Korean-Collections\src" />
-      <recent name="C:\Users\kmoon\Desktop\my\Korean-Collections\src\Main" />
-      <recent name="C:\Users\kmoon\Desktop\KoreanCollections\src\Main" />
-      <recent name="C:\Users\kmoon\Desktop\KoreanCollections\src\Contents" />
+      <recent name="C:\Users\kmoon\Desktop\my\Korean-Collections\src\Resources\Visitkorea" />
+      <recent name="C:\Users\kmoon\Desktop\my\Korean-Collections\src\Component\Visitkorea\Information" />
+      <recent name="C:\Users\kmoon\Desktop\my\Korean-Collections\src\Resources\img\notice" />
+      <recent name="C:\Users\kmoon\Desktop\my\Korean-Collections\src\Resources\img\simte" />
+      <recent name="C:\Users\kmoon\Desktop\my\Korean-Collections\src\Resources" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kmoon\Desktop\my\Korean-Collections\src\Resources\Visitkorea" />
+      <recent name="C:\Users\kmoon\Desktop\my\Korean-Collections\src\Resources" />
+      <recent name="C:\Users\kmoon\Desktop\my\Korean-Collections\src\Resources\Styles" />
+      <recent name="C:\Users\kmoon\Desktop\my\Korean-Collections\src\Component\Dialog" />
+      <recent name="C:\Users\kmoon\Desktop\my\Korean-Collections\src\Component\Styles" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://api.visitkorea.or.kr/openapi/service" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;ServiceKey&quot;: &quot;RFTC3k4z2wJ5GJHf53NSi218tLreQZw%2F0bboS1I45pE6w1z8v%2ByLQi12XTkrwVDgeeqd0GpEy67fbvoIp83buQ%3D%3D&quot;,&#10;    &quot;numOfRows&quot;: &quot;10&quot;,&#10;    &quot;pageNo&quot;: &quot;1&quot;,&#10;    &quot;MobileOS&quot;: &quot;ETC&quot;,&#10;    &quot;MobileApp&quot;: &quot;AppTest&quot;,&#10;    &quot;contentId&quot;: &quot;621155&quot;,&#10;    &quot;contentTypeId&quot;: &quot;78&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://api.visitkorea.or.kr/openapi/service/rest/EngService/areaCode" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="ServiceKey" />
+                <option name="value" value="ServiceKey" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="numOfRows" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="pageNo" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="MobileOS" />
+                <option name="value" value="ETC" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="MobileApp" />
+                <option name="value" value="TestApp" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="_type" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;ServiceKey&quot;: &quot;RFTC3k4z2wJ5GJHf53NSi218tLreQZw%2F0bboS1I45pE6w1z8v%2ByLQi12XTkrwVDgeeqd0GpEy67fbvoIp83buQ%3D%3D&quot;,&#10;    &quot;numOfRows&quot;: &quot;10&quot;,&#10;    &quot;pageNo&quot;: &quot;1&quot;,&#10;    &quot;MobileOS&quot;: &quot;ETC&quot;,&#10;    &quot;MobileApp&quot;: &quot;AppTest&quot;,&#10;    &quot;contentId&quot;: &quot;621155&quot;,&#10;    &quot;contentTypeId&quot;: &quot;78&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://api.visitkorea.or.kr/openapi/service/rest/EngService/areaCode" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="ServiceKey" />
+                <option name="value" value="ServiceKey" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="numOfRows" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="pageNo" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="MobileOS" />
+                <option name="value" value="ETC" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="MobileApp" />
+                <option name="value" value="TestApp" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="_type" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;    &quot;ServiceKey&quot;: &quot;RFTC3k4z2wJ5GJHf53NSi218tLreQZw%2F0bboS1I45pE6w1z8v%2ByLQi12XTkrwVDgeeqd0GpEy67fbvoIp83buQ%3D%3D  &quot;&#10;    &#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://api.visitkorea.or.kr/openapi/service/rest/EngService/areaCode" />
+          <option name="urlPath" value="" />
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="ServiceKey" />
+                <option name="value" value="ServiceKey" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="numOfRows" />
+                <option name="value" value="10" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="pageNo" />
+                <option name="value" value="1" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="MobileOS" />
+                <option name="value" value="ETC" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="MobileApp" />
+                <option name="value" value="TestApp" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="_type" />
+                <option name="value" value="json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -322,111 +520,28 @@
       <workItem from="1563507305325" duration="106000" />
       <workItem from="1563507485071" duration="6445000" />
       <workItem from="1563517275989" duration="10101000" />
-    </task>
-    <task id="LOCAL-00001" summary="ADD Material-ui &amp; Robot Font">
-      <created>1561682380279</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1561682380279</updated>
-    </task>
-    <task id="LOCAL-00002" summary="ADD FirstBar &amp; SecondBar Example">
-      <created>1561689735405</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1561689735405</updated>
-    </task>
-    <task id="LOCAL-00003" summary="ADD Site Main &amp; MainFeaturedPost">
-      <created>1561766428189</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1561766428189</updated>
-    </task>
-    <task id="LOCAL-00004" summary="ADD SubFeaturedPost">
-      <created>1561767729199</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1561767729199</updated>
-    </task>
-    <task id="LOCAL-00005" summary="ADD Footer">
-      <created>1561768273271</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1561768273271</updated>
-    </task>
-    <task id="LOCAL-00006" summary="기본 틀 개발 완료.&#10;基本的な開発完了。">
-      <created>1561770854255</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1561770854255</updated>
-    </task>
-    <task id="LOCAL-00007" summary="gitpage 연동작업&#10;gitpage 適用作業">
-      <created>1562123443231</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1562123443231</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Title 클릭시 홈으로 이동.&#10;Title クリックするとHOMEに移動する。">
-      <created>1562125870270</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1562125870270</updated>
-    </task>
-    <task id="LOCAL-00009" summary="UPDATE Title Link href &quot;/Korean-Collections&quot;">
-      <created>1562126570605</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1562126570605</updated>
-    </task>
-    <task id="LOCAL-00010" summary="SubFeaturedPosts 구조 변경.&#10;SubFeaturedPosts Layout 変更。">
-      <created>1562143705988</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1562143705988</updated>
-    </task>
-    <task id="LOCAL-00011" summary="TODO SubFeaturedPostsPagination!">
-      <created>1562146081034</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1562146081034</updated>
-    </task>
-    <task id="LOCAL-00012" summary="ADD 기본 pagination&#10;ADD 基本 pagination">
-      <created>1562383915769</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1562383915769</updated>
-    </task>
-    <task id="LOCAL-00013" summary="ADD 기본 email form&#10;ADD 基本 email form">
-      <created>1562412860295</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1562412860295</updated>
-    </task>
-    <task id="LOCAL-00014" summary="ADD Email Title">
-      <created>1562982574210</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1562982574210</updated>
-    </task>
-    <task id="LOCAL-00015" summary="UPGRADE Function -&gt; Class Email.js">
-      <created>1562983972756</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1562983972756</updated>
+      <workItem from="1563843937044" duration="20146000" />
+      <workItem from="1563931220548" duration="19950000" />
+      <workItem from="1564040401095" duration="4454000" />
+      <workItem from="1564044970709" duration="968000" />
+      <workItem from="1564102584234" duration="5027000" />
+      <workItem from="1564134514604" duration="3000" />
+      <workItem from="1564362655878" duration="7909000" />
+      <workItem from="1564476418160" duration="1363000" />
+      <workItem from="1564716931119" duration="8556000" />
+      <workItem from="1565002223291" duration="3994000" />
+      <workItem from="1565143958176" duration="6000" />
+      <workItem from="1565149785568" duration="15139000" />
+      <workItem from="1565167064717" duration="70000" />
+      <workItem from="1565170508126" duration="4000" />
+      <workItem from="1565312901828" duration="636000" />
+      <workItem from="1565333948968" duration="9107000" />
+      <workItem from="1565572072914" duration="1404000" />
+      <workItem from="1565575009104" duration="956000" />
+      <workItem from="1565576705361" duration="19938000" />
+      <workItem from="1565657921046" duration="22076000" />
+      <workItem from="1565682584994" duration="3568000" />
+      <workItem from="1565745204727" duration="11710000" />
     </task>
     <task id="LOCAL-00016" summary="UPGRADE fullWidth={&quot;true&quot;} -&gt; fullWidth={true} (Email.js)">
       <created>1562986017958</created>
@@ -463,56 +578,345 @@
       <option name="project" value="LOCAL" />
       <updated>1563526931903</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="make a notice page">
+      <created>1563761888609</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1563761888609</updated>
+    </task>
+    <task id="LOCAL-00022" summary="ADD NoticePosts">
+      <created>1563767612719</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1563767612719</updated>
+    </task>
+    <task id="LOCAL-00023" summary="style을 props로 넘기기. / StyleをPropsで渡す。">
+      <created>1563775613114</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1563775613114</updated>
+    </task>
+    <task id="LOCAL-00024" summary="ADD Contents Title!">
+      <created>1563777439581</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1563777439581</updated>
+    </task>
+    <task id="LOCAL-00025" summary="ADD Search system (Collections)">
+      <created>1563784578235</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1563784578235</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Expected to return ... array-callback-return 해결, 解決">
+      <created>1563785770961</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1563785770961</updated>
+    </task>
+    <task id="LOCAL-00027" summary="ADD init Simte Language">
+      <created>1563789561143</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1563789561143</updated>
+    </task>
+    <task id="LOCAL-00028" summary="ADD analytics">
+      <created>1563792547492</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1563792547492</updated>
+    </task>
+    <task id="LOCAL-00029" summary="ADD Google AdSense">
+      <created>1563793214940</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1563793214940</updated>
+    </task>
+    <task id="LOCAL-00030" summary="commit master">
+      <created>1563854648671</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1563854648671</updated>
+    </task>
+    <task id="LOCAL-00031" summary="UPDATE Domain">
+      <created>1563856350815</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1563856350815</updated>
+    </task>
+    <task id="LOCAL-00032" summary="UPDATE Layout">
+      <created>1563945956471</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1563945956471</updated>
+    </task>
+    <task id="LOCAL-00033" summary="UPDATE Layout Padding">
+      <created>1563946778604</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1563946778604</updated>
+    </task>
+    <task id="LOCAL-00034" summary="UPDATE Collections Card -&gt; Button">
+      <created>1563956974950</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1563956974950</updated>
+    </task>
+    <task id="LOCAL-00035" summary="UPDATE Simte Layout">
+      <created>1564044531035</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1564044531035</updated>
+    </task>
+    <task id="LOCAL-00036" summary="ADD Toolbal (Study) : SimteToKorean">
+      <created>1564044788870</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1564044788870</updated>
+    </task>
+    <task id="LOCAL-00037" summary="UPDATE CollectionsPosts IMG">
+      <created>1564363171582</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1564363171582</updated>
+    </task>
+    <task id="LOCAL-00038" summary="UPDATE Notice Layout">
+      <created>1564370112929</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1564370112929</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update full dialog step 1">
+      <created>1564726350673</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1564726350673</updated>
+    </task>
+    <task id="LOCAL-00040" summary="TODO target.value">
+      <created>1564728346696</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1564728346696</updated>
+    </task>
+    <task id="LOCAL-00041" summary="ADD Collections dialog!">
+      <created>1565004637187</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1565004637187</updated>
+    </task>
+    <task id="LOCAL-00042" summary="ADD MOVIES PLAYER">
+      <created>1565006015901</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1565006015901</updated>
+    </task>
+    <task id="LOCAL-00043" summary="UPDATE Movie Layout">
+      <created>1565150789205</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1565150789205</updated>
+    </task>
+    <task id="LOCAL-00044" summary="UPDATE Style Path">
+      <created>1565150886687</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1565150886687</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Change Collections Dialog Code location">
+      <created>1565151238843</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1565151238843</updated>
+    </task>
+    <task id="LOCAL-00046" summary="UPDATE Movie Layout">
+      <created>1565152021176</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1565152021176</updated>
+    </task>
+    <task id="LOCAL-00047" summary="UPDATE Movie Layout Info">
+      <created>1565152180963</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1565152180963</updated>
+    </task>
+    <task id="LOCAL-00048" summary="LOCATION Contents (Component -&gt; Resources)">
+      <created>1565152273118</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1565152273118</updated>
+    </task>
+    <task id="LOCAL-00049" summary="UPDATE menu bar open: true -&gt; false">
+      <created>1565158833453</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1565158833453</updated>
+    </task>
+    <task id="LOCAL-00050" summary="UPDATE Notice">
+      <created>1565161626475</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1565161626475</updated>
+    </task>
+    <task id="LOCAL-00051" summary="UPDATE Study img">
+      <created>1565162969403</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1565162969403</updated>
+    </task>
+    <task id="LOCAL-00052" summary="UPDATE Simte (Step 2)">
+      <created>1565334086742</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1565334086742</updated>
+    </task>
+    <task id="LOCAL-00053" summary="UPDATE Dialog (simple code)">
+      <created>1565343802536</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1565343802536</updated>
+    </task>
+    <task id="LOCAL-00054" summary="UPDATE Notice Dialog">
+      <created>1565578671349</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1565578671350</updated>
+    </task>
+    <task id="LOCAL-00055" summary="UPDATE Dialog Handler">
+      <created>1565579837064</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1565579837064</updated>
+    </task>
+    <task id="LOCAL-00056" summary="UPDATE Notice Img">
+      <created>1565581484131</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1565581484131</updated>
+    </task>
+    <task id="LOCAL-00057" summary="UPDATE Notice Link">
+      <created>1565582227515</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1565582227515</updated>
+    </task>
+    <task id="LOCAL-00058" summary="UPDATE Simte Layout">
+      <created>1565591014494</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1565591014494</updated>
+    </task>
+    <task id="LOCAL-00059" summary="ADD Simte TTS">
+      <created>1565595419809</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1565595419809</updated>
+    </task>
+    <task id="LOCAL-00060" summary="ADD Step3 ~ 5">
+      <created>1565595955764</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1565595955764</updated>
+    </task>
+    <task id="LOCAL-00061" summary="ADD Tours">
+      <created>1565680053130</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1565680053130</updated>
+    </task>
+    <task id="LOCAL-00062" summary="UPDATE Error! (Expected to return a value in arrow function  array-callback-return)">
+      <created>1565680267499</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1565680267499</updated>
+    </task>
+    <task id="LOCAL-00063" summary="UPDATE https AreaCode">
+      <created>1565682050192</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1565682050192</updated>
+    </task>
+    <task id="LOCAL-00064" summary="ADD Tours Data Copyright">
+      <created>1565685545215</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1565685545215</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71234000" />
+    <option name="totallyTimeSpent" value="256670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3301486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3264418" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.257889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3264418" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29488575" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3301486" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280255" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24265505" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20962963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -547,128 +951,266 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ADD Material-ui &amp; Robot Font" />
-    <MESSAGE value="ADD FirstBar &amp; SecondBar Example" />
-    <MESSAGE value="ADD Site Main &amp; MainFeaturedPost" />
-    <MESSAGE value="ADD SubFeaturedPost" />
-    <MESSAGE value="ADD Footer" />
-    <MESSAGE value="기본 틀 개발 완료.&#10;基本的な開発完了。" />
-    <MESSAGE value="gitpage 연동작업&#10;gitpage 適用作業" />
-    <MESSAGE value="Title 클릭시 홈으로 이동.&#10;Title クリックするとHOMEに移動する。" />
-    <MESSAGE value="UPDATE Title Link href &quot;/Korean-Collections&quot;" />
-    <MESSAGE value="SubFeaturedPosts 구조 변경.&#10;SubFeaturedPosts Layout 変更。" />
-    <MESSAGE value="TODO SubFeaturedPostsPagination!" />
-    <MESSAGE value="ADD 기본 pagination&#10;ADD 基本 pagination" />
-    <MESSAGE value="ADD 기본 email form&#10;ADD 基本 email form" />
-    <MESSAGE value="ADD Email Title" />
-    <MESSAGE value="UPGRADE Function -&gt; Class Email.js" />
-    <MESSAGE value="UPGRADE fullWidth={&quot;true&quot;} -&gt; fullWidth={true} (Email.js)" />
-    <MESSAGE value="SubFeaturedPosts item 출력 4 -&gt; 8&#10;SubFeaturedPosts item 出力 4 -&gt; 8" />
-    <MESSAGE value="ADD SubFeaturedSearch" />
-    <MESSAGE value="ADD Router" />
-    <MESSAGE value="페이징 최소, 최대 제한 / Paginationの最小最大制限" />
-    <option name="LAST_COMMIT_MESSAGE" value="페이징 최소, 최대 제한 / Paginationの最小最大制限" />
+    <MESSAGE value="TODO target.value" />
+    <MESSAGE value="ADD Collections dialog!" />
+    <MESSAGE value="ADD MOVIES" />
+    <MESSAGE value="ADD MOVIES PLAYER" />
+    <MESSAGE value="UPDATE Style Path" />
+    <MESSAGE value="Change Collections Dialog Code location" />
+    <MESSAGE value="UPDATE Movie Layout" />
+    <MESSAGE value="UPDATE Movie Layout Info" />
+    <MESSAGE value="LOCATION Contents (Component -&gt; Resources)" />
+    <MESSAGE value="UPDATE menu bar open: true -&gt; false" />
+    <MESSAGE value="UPDATE Notice" />
+    <MESSAGE value="UPDATE Study img" />
+    <MESSAGE value="UPDATE Simte (Step 2)" />
+    <MESSAGE value="UPDATE Dialog (simple code)" />
+    <MESSAGE value="UPDATE Notice Dialog" />
+    <MESSAGE value="UPDATE Dialog Handler" />
+    <MESSAGE value="UPDATE Notice Img" />
+    <MESSAGE value="UPDATE Notice Link" />
+    <MESSAGE value="UPDATE Simte Layout" />
+    <MESSAGE value="ADD Simte TTS" />
+    <MESSAGE value="ADD Step3 ~ 5" />
+    <MESSAGE value="ADD Tours" />
+    <MESSAGE value="UPDATE Error! (Expected to return a value in arrow function  array-callback-return)" />
+    <MESSAGE value="UPDATE https AreaCode" />
+    <MESSAGE value="ADD Tours Data Copyright" />
+    <option name="LAST_COMMIT_MESSAGE" value="ADD Tours Data Copyright" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/initialization/materialUiInstallation.js" />
-    <entry file="file://$PROJECT_DIR$/src/Layout/Blog.js" />
-    <entry file="file://$PROJECT_DIR$/src/Toolbar/Right.js" />
-    <entry file="file://$PROJECT_DIR$/src/Toolbar/Center.js" />
-    <entry file="file://$PROJECT_DIR$/src/App.test.js">
+    <entry file="file://$PROJECT_DIR$/build/static/js/main.c66c634d.chunk.js" />
+    <entry file="file://$PROJECT_DIR$/src/Resources/Styles/Toolbar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="388">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.js" />
-    <entry file="file://$PROJECT_DIR$/src/App.css">
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-689">
+          <caret line="806" column="9" lean-forward="false" selection-start-line="806" selection-start-column="9" selection-end-line="806" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Toolbar/Css.js" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/structural.rnc">
+    <entry file="file://$PROJECT_DIR$/src/Component/Dialog/Utils.js" />
+    <entry file="file://$PROJECT_DIR$/src/Component/Dialog/Type1FullScreen.js" />
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="132" column="16" lean-forward="false" selection-start-line="132" selection-start-column="16" selection-end-line="132" selection-end-column="16" />
+        <state relative-caret-position="296">
+          <caret line="2609" column="8" lean-forward="false" selection-start-line="2609" selection-start-column="8" selection-end-line="2609" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/blog-post2.md" />
-    <entry file="file://$PROJECT_DIR$/src/Main/blog-post1.md" />
-    <entry file="file://$PROJECT_DIR$/src/Main/blog-post3.md" />
-    <entry file="file://$PROJECT_DIR$/src/Main/Markdown.js" />
-    <entry file="file://$PROJECT_DIR$/src/Main/EndSubFeaturedPosts.js" />
-    <entry file="file://$PROJECT_DIR$/build/index.html" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/Resources/Contents/NoticePosts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="525">
+          <caret line="21" column="73" lean-forward="false" selection-start-line="21" selection-start-column="73" selection-end-line="21" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/SubFeaturedPagination.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/Resources/Styles/Notice.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="425">
+          <caret line="17" column="15" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="23" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/styles/makeStyles.d.ts" />
-    <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/styles/index.d.ts" />
-    <entry file="file://$PROJECT_DIR$/src/Main/css.js" />
-    <entry file="file://$PROJECT_DIR$/src/Home/Main/SubFeaturedPosts.js">
+    <entry file="file://$PROJECT_DIR$/src/Resources/Styles/Movie.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="250">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main/test.js" />
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/src/Resources/Styles/Email.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Styles/Simte.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="43" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Simte/StudyPanel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" column="64" lean-forward="false" selection-start-line="21" selection-start-column="64" selection-end-line="21" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Styles/Dialog.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
-          <caret line="19" column="38" lean-forward="true" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding />
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Styles/Footer.js">
+    <entry file="file://$PROJECT_DIR$/src/Component/Toolbar/test.js" />
+    <entry file="file://$PROJECT_DIR$/src/Resources/Contents/Simte.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Http-Request.http" />
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Styles/Collections.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="77" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Contents/CollectionsPosts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
-          <caret line="2" column="8" lean-forward="false" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="56" />
+          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-xml-parser/dist/bundle.js" />
+    <entry file="file://$PROJECT_DIR$/src/Component/Dialog/Base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="37" column="21" lean-forward="true" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/Component/Collections/CollectionsSearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Dialog/FullScreenType0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="24" column="22" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Dialog/FullScreenType1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Email/Base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Email/EmailMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Movie/Base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="23" column="52" lean-forward="true" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Notice/NoticeStepper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Notice/Base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Simte/Base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Simte/Study.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="31" column="37" lean-forward="true" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="334">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Styles/Visitkorea.js" />
+    <entry file="file://$PROJECT_DIR$/src/Component/Collections/CollectionsPosts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Toolbar/Base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test/Root.js" />
-    <entry file="file://$PROJECT_DIR$/src/Test/App.js" />
-    <entry file="file://$PROJECT_DIR$/src/Test/About.js" />
-    <entry file="file://$PROJECT_DIR$/src/Test/Home.js" />
-    <entry file="file://$PROJECT_DIR$/src/Home/Styles/TitleBar.js">
+    <entry file="file://$USER_HOME$/Downloads/visitkorea.nt">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-210165">
+          <caret line="0" column="37" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Visitkorea/AreaCode.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -676,57 +1218,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Styles/SecondBar.js">
+    <entry file="file://$PROJECT_DIR$/src/Component/Toolbar/ToolbarList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="0">
+          <caret line="0" column="7" lean-forward="true" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Toolbar/TitleBar.js">
+    <entry file="file://$PROJECT_DIR$/src/Component/Toolbar/TitleBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Styles/Email.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="3" />
+        <state relative-caret-position="450">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Styles/Toolbar.js">
+    <entry file="file://$PROJECT_DIR$/src/Component/Toolbar/DrawerBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="809">
-          <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
+        <state relative-caret-position="225">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Styles/MainFeaturedPost.js">
+    <entry file="file://$PROJECT_DIR$/src/Component/Visitkorea/Information/Base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Styles/SubFeatured.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Main/MainFeaturedPost.js">
+    <entry file="file://$PROJECT_DIR$/src/Resources/Styles/Tour.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="2" column="36" lean-forward="false" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
@@ -734,119 +1258,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Footer/Base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="47" lean-forward="true" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Toolbar/Base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Contents/SubFeaturedPost.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Main/SubFeaturedPosts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="58" column="96" lean-forward="true" selection-start-line="58" selection-start-column="96" selection-end-line="58" selection-end-column="96" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Styles/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Main/SubFeaturedSearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="13" column="42" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Main/Base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="30" lean-forward="false" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Email/Base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="15" column="43" lean-forward="true" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Base.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="300">
+          <caret line="12" column="64" lean-forward="true" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="45" lean-forward="true" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Utils/xml2json.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Visitkorea/AreaCode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="35" column="37" lean-forward="true" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Resources/Visitkorea/한국국제교류재단_한국음식정보_영어_201811.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="116" column="6" lean-forward="true" selection-start-line="116" selection-start-column="6" selection-end-line="116" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Collections/Base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-341">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Component/Visitkorea/Information/Foods.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Home/Toolbar/SecondBar.js">
+    <entry file="file://$PROJECT_DIR$/src/Component/Tour/Base.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -9,6 +9,8 @@ import {styles} from '../../Resources/Styles/Tour'
 
 const useStyles = makeStyles(styles);
 
+// Hold for security issues. (api key)
+
 export default (function TourBase() {
     const [state] = React.useState({
         columns: [
@@ -62,7 +64,8 @@ export default (function TourBase() {
                                     onClick: (event, rowData) => alert("Click " + rowData.area)
                                 }]}
                             />
-                            <Typography className={classes.Copyright} variant="overline" display="block" gutterBottom align={'center'}>
+                            <Typography className={classes.Copyright} variant="overline" display="block" gutterBottom
+                                        align={'center'}>
                                 영문 관광정보 서비스 by 한국관광공사, CC BY 라이센스
                             </Typography>
                         </div>

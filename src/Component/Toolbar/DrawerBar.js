@@ -17,8 +17,8 @@ export default (function DrawerBar(props) {
         {title: "Contact", icon: <PeopleIcon/>},
     ];
 
-    const tourItems = [
-        {title: "Tour", icon: <TripOrigin/>},
+    const informationtems = [
+        {title: "Foods", icon: <TripOrigin/>},
     ];
 
     const studyItems = [
@@ -44,7 +44,7 @@ export default (function DrawerBar(props) {
             <List>
                 <ToolBarList Items={mainItems} subheader={"Main"}/>
                 <Divider />
-                <ToolBarList Items={tourItems} subheader={"Tour"}/>
+                <ToolBarList Items={informationtems} subheader={"Information"}/>
                 <Divider />
                 <ToolBarList Items={studyItems} subheader={"Study"}/>
             </List>

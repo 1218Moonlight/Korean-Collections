@@ -1,5 +1,7 @@
 import React from 'react'
 
+// Hold for security issues. (api key)
+
 export default (class AreaCode extends React.Component {
     state = {
         items: [],
@@ -42,7 +44,7 @@ export default (class AreaCode extends React.Component {
         let request = require('request');
         let url = 'https://api.visitkorea.or.kr/openapi/service/rest/EngService/areaCode';
 
-        let queryParams = '?' + encodeURIComponent('ServiceKey') + '=RFTC3k4z2wJ5GJHf53NSi218tLreQZw%2F0bboS1I45pE6w1z8v%2ByLQi12XTkrwVDgeeqd0GpEy67fbvoIp83buQ%3D%3D';
+        let queryParams = '?' + encodeURIComponent('ServiceKey') + '=서비스키';
         queryParams += '&' + encodeURIComponent('ServiceKey') + '=' + encodeURIComponent('인증키 (URL- Encode)');
         queryParams += '&' + encodeURIComponent('numOfRows') + '=' + encodeURIComponent('50');
         queryParams += '&' + encodeURIComponent('pageNo') + '=' + encodeURIComponent('1');
