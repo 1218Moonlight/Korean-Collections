@@ -18,6 +18,7 @@ export default (function DrawerBar(props) {
     ];
 
     const informationtems = [
+        {title: "Tour", icon: <TripOrigin/>},
         {title: "Foods", icon: <TripOrigin/>},
     ];
 

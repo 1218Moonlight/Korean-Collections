@@ -5,6 +5,7 @@ import CollectionsBase from './Component/Collections/Base'
 import EmailBase from './Component/Email/Base'
 import SimteBase from './Component/Simte/Base'
 import InformationFoods from './Component/Visitkorea/Information/Foods'
+import InformationTour from './Component/Visitkorea/Information/Tour'
 
 export default function App() {
     return (
@@ -15,7 +16,7 @@ export default function App() {
                 <Route path={"/Contact"} component={EmailBase}/>
                 <Route path={"/SimteToKorean"} component={SimteBase} />
                 <Route path={"/Foods"} component={InformationFoods} />
-                {/*<Route path={"/Tour"} component={TourBase} /> // Hold for security issues. (api key)*/}
+                <Route path={"/Tour"} component={InformationTour} />
             </Switch>
         </Router>
     )

@@ -3,6 +3,7 @@ import ToolbarBase from '../../Toolbar/Base'
 import MaterialTable from 'material-table';
 import {xml} from '../../../Resources/Visitkorea/한국국제교류재단_한국음식정보_영어_201811.js'
 import {xml2json} from '../../Utils/xml2json'
+import Typography from '@material-ui/core/Typography'
 
 export default function InformationFoods() {
     const foods_info_json = xml2json(xml);
@@ -47,6 +48,10 @@ export default function InformationFoods() {
                 //     onClick: (event, rowData) => alert("Click " + rowData.area)
                 // }]}
             />
+            <Typography variant="overline" display="block" gutterBottom
+                        align={'center'}>
+                출처 : 한국국제교류재단
+            </Typography>
         </ToolbarBase>
     )
 }
