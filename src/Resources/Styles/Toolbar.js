@@ -7,7 +7,7 @@ export const styles = theme => ({
         flexGrow: 1,
         height: '100vh',
         overflow: 'auto',
-        paddingTop: 100,
+        paddingTop: 70,
         paddingLeft: 10,
         paddingRight: 10
     },

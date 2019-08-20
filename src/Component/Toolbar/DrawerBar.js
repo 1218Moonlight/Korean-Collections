@@ -13,6 +13,8 @@ import LayersIcon from '@material-ui/icons/Layers';
 
 export default (function DrawerBar(props) {
     const mainItems = [
+        {title: "Home", icon: <ShoppingCartIcon/>},
+        {title: "Notice", icon: <ShoppingCartIcon/>},
         {title: "Collections", icon: <ShoppingCartIcon/>},
         {title: "Contact", icon: <PeopleIcon/>},
     ];
