@@ -1,6 +1,6 @@
 import React from 'react';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
-import MainBase from './Component/Main/Base'
+import MainBase from './Component/Main/MainBase'
 import NoticeBase from './Component/Notice/Base'
 import CollectionsBase from './Component/Collections/Base'
 import EmailBase from './Component/Email/Base'
