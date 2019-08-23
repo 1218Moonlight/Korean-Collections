@@ -1,7 +1,6 @@
 export const styles = theme => ({
-    textField: {
-        marginLeft: theme.spacing(1),
-        marginRight: theme.spacing(1),
+    card: {
+        margin: '6%', padding:'6%'
     },
     gotcha: {
         display: "none"
