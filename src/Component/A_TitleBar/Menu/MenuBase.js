@@ -1,18 +1,9 @@
 import React from 'react'
-
-import {makeStyles} from '@material-ui/core/styles'
-import {styles} from '../../../../Resources/Styles/Main/Menu'
-
-import {items} from '../../../../Resources/Contents/Main/Menu'
-
 import MenuIconButton from './MenuIconButton'
 import MenuDrawer from './MenuDrawer'
 
-const useStyles = makeStyles(styles);
-
-export default function MenuBase() {
-    const classes = useStyles();
-
+export default function MenuBase(props) {
+    const {classes, items} = props;
     const [state, setState] = React.useState({
         open: false
     });

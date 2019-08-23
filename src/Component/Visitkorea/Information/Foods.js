@@ -1,5 +1,5 @@
 import React from 'react'
-import ToolbarBase from '../../Toolbar/Base'
+import TitleBarBase from '../../A_TitleBar/TitleBarBase'
 import MaterialTable from 'material-table';
 import {xml} from '../../../Resources/Visitkorea/한국국제교류재단_한국음식정보_영어_201811.js'
 import {xml2json} from '../../Utils/xml2json'
@@ -37,7 +37,7 @@ export default function InformationFoods() {
     // console.log(getXml2Json(foods_info_xml));
 
     return (
-        <ToolbarBase>
+        <TitleBarBase>
             <MaterialTable
                 title="Foods Dictionary"
                 columns={columns}
@@ -52,6 +52,6 @@ export default function InformationFoods() {
                         align={'center'}>
                 출처 : 한국국제교류재단
             </Typography>
-        </ToolbarBase>
+        </TitleBarBase>
     )
 }

@@ -1,7 +1,7 @@
-import spaghettiRamen from '../img/foods/noodles/Spaghetti-Ramen.jpg'
-import seafoodRamen from '../img/foods/noodles/Seafood-Ramen.jpg'
-import jinjjaJjolmyeon from '../img/foods/noodles/Jinjja-Jjolmyeon.jpg'
-import BuldakStirFriedNoodles from '../img/foods/noodles/Buldak-stir-fried-noodles.jpg'
+import spaghettiRamen from '../Img/foods/noodles/Spaghetti-Ramen.jpg'
+import seafoodRamen from '../Img/foods/noodles/Seafood-Ramen.jpg'
+import jinjjaJjolmyeon from '../Img/foods/noodles/Jinjja-Jjolmyeon.jpg'
+import BuldakStirFriedNoodles from '../Img/foods/noodles/Buldak-stir-fried-noodles.jpg'
 
 const type = 0; // Collections Type Index
 

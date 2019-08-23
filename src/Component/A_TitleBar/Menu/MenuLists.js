@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from '@material-ui/core/Link';
 import Divider from '@material-ui/core/Divider'
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
@@ -10,13 +10,15 @@ export default function MenuLists(props) {
     const {items, classes} = props;
     return (
         <List className={classes.List}>
-            {items.map((item, i) => (
-                <React.Fragment key={i}>
+            {items.map((item, index) => (
+                <React.Fragment key={index}>
                     {item.map((i, index) => (
-                        <ListItem button key={index}>
-                            <ListItemIcon>{i.icon}</ListItemIcon>
-                            <ListItemText primary={i.title}/>
-                        </ListItem>
+                        <Link key={index} href={'#/' + i.title} color="inherit" variant="body2" noWrap>
+                            <ListItem button key={index}>
+                                <ListItemIcon>{i.icon}</ListItemIcon>
+                                <ListItemText primary={i.title}/>
+                            </ListItem>
+                        </Link>
                     ))}
                     <Divider/>
                 </React.Fragment>

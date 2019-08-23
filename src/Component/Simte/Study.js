@@ -5,8 +5,8 @@ import ListItem from '@material-ui/core/ListItem'
 import ListItemAvatar from '@material-ui/core/ListItemAvatar'
 import Avatar from '@material-ui/core/Avatar'
 import Typography from '@material-ui/core/Typography'
-import A from '../../Resources/img/simte/A.jpg'
-import B from '../../Resources/img/simte/B.jpg'
+import A from '../../Resources/Img/simte/A.jpg'
+import B from '../../Resources/Img/simte/B.jpg'
 
 export default (function Study(props) {
     const {classes, step} = props;
