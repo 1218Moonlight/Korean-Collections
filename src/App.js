@@ -1,7 +1,7 @@
 import React from 'react';
 import {HashRouter as Router, Route, Switch} from 'react-router-dom';
 import MainBase from './Component/B_Main/MainBase'
-import CollectionsBase from './Component/Collections/Base'
+import CollectionsBase from './Component/Collections/CollectionsBase'
 import ContactBase from './Component/Contact/ContactBase'
 import SimteBase from './Component/Simte/Base'
 import InformationFoods from './Component/Visitkorea/Information/Foods'
