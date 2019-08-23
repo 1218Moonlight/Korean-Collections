@@ -2,10 +2,10 @@ import React from 'react'
 import TitleBarBase from '../../A_TitleBar/TitleBarBase'
 import MaterialTable from 'material-table';
 import {xml} from '../../../Resources/Visitkorea/한국국제교류재단_한국음식정보_영어_201811.js'
-import {xml2json} from '../../Utils/xml2json'
+import {xml2json} from '../../Z_Utils/xml2json'
 import Typography from '@material-ui/core/Typography'
 
-export default function InformationFoods() {
+export default function FoodsBase() {
     const foods_info_json = xml2json(xml);
 
     // let columns = [];

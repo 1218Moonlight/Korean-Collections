@@ -4,8 +4,8 @@ import MainBase from './Component/B_Main/MainBase'
 import CollectionsBase from './Component/Collections/CollectionsBase'
 import ContactBase from './Component/Contact/ContactBase'
 import SimteBase from './Component/Simte/Base'
-import InformationFoods from './Component/Visitkorea/Information/Foods'
-import InformationTour from './Component/Visitkorea/Information/Tour'
+import FoodsBase from './Component/Visitkorea/Foods/FoodsBase'
+import TourBase from './Component/Visitkorea/Tour/TourBase'
 
 export default function App() {
     return (
@@ -16,8 +16,8 @@ export default function App() {
                 <Route path={"/Collections"} component={CollectionsBase}/>
                 <Route path={"/Contact"} component={ContactBase}/>
                 <Route path={"/SimteToKorean"} component={SimteBase}/>
-                <Route path={"/Foods"} component={InformationFoods}/>
-                <Route path={"/Tour"} component={InformationTour}/>
+                <Route path={"/Foods"} component={FoodsBase}/>
+                <Route path={"/Tour"} component={TourBase}/>
             </Switch>
         </Router>
     )
