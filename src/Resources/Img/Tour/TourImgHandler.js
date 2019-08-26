@@ -11,6 +11,7 @@ import SACGG from './Seoul Art Center Gongpyeong Gallery (서울아트센터 공
 import SCFNICA from './Seoul Center for National Intangible Cultural Asset (서울국가무형문화재전수회관)1.jpg'
 import SCM from "./Seoul Children's Museum (서울상상나라)1.jpg"
 import SML from "./Seoul Metropolitan Library (서울도서관)1.jpg"
+import MAIN from './palace_1920.jpg'
 
 
 // TODO : need for refactoring
@@ -41,5 +42,7 @@ export default function TourImgHandler(name) {
         return SCM
     } else if (name === "Seoul Metropolitan Library (서울도서관)1.jpg") {
         return SML
+    } else if (name === "main") {
+        return MAIN
     }
 }
