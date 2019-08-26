@@ -39,6 +39,7 @@ export default withStyles(styles)(class TourBase extends React.Component {
                 <TourSearch classes={classes} search={this.handleSearchFieldChange}/>
                 <TourBanner classes={classes} items={this.state.items} itemsSize={this.state.itemsSize}
                             TourImgHandler={TourImgHandler}/>
+                <p>출처 : 한국관광공사</p>
             </TitleBarBase>
         );
     }

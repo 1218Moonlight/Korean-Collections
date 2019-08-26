@@ -8,14 +8,14 @@ import LayersIcon from '@material-ui/icons/Layers';
 export const items = [
     [
         {icon: <ShoppingCartIcon/>, title: "Home"},
-        {icon: <ShoppingCartIcon/>, title: "Collections"},
-        {icon: <PeopleIcon/>, title: "Contact"},
+        // TODO: {icon: <ShoppingCartIcon/>, title: "Collections"},
     ],
     [
         {icon: <TripOrigin/>, title: "Tour"},
         {icon: <TripOrigin/>, title: "Foods"},
     ],
     [
-        {icon: <LayersIcon/>, title: "SimteToKorean"}
+        {icon: <LayersIcon/>, title: "SimteToKorean"},
+        {icon: <PeopleIcon/>, title: "Contact"},
     ]
 ];

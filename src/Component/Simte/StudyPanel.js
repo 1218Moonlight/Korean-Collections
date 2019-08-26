@@ -9,7 +9,7 @@ import Study from './Study'
 export default function ControlledExpansionPanels(props) {
     const {items, classes, expanded, handleChange} = props;
     return (
-        <div className={classes.studyPanelRoot}>
+        <div className={classes.studyPanelRoot} style={{marginTop:60}}>
             {items.map((step, i) => (
                 <ExpansionPanel key={i} expanded={expanded === 'panel' + String(i)}
                                 onChange={handleChange('panel' + String(i))}>

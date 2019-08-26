@@ -50,7 +50,7 @@ export default class TourBanner extends React.Component {
                 </div>
                 <Grid justify={'center'} container spacing={2}>
                     {target.map((item, index) => (
-                        <Grid key={index} item xs={10} md={3}>
+                        <Grid key={index} item xs={11} md={3}>
                             <Card style={{width: 300}} raised>
                                 <marquee>
                                     <CardHeader

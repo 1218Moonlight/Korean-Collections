@@ -5,14 +5,17 @@ import study from '../Img/B_Main/kids_1920.jpg'
 export const items = [
     {
         title: "Let's go! Korea!",
-        img: jongno
+        img: jongno,
+        endPoint:'Tour'
     },
     {
         title: "Explore food!",
-        img: toppokki
+        img: toppokki,
+        endPoint:'Collections'
     },
     {
         title: "Let's learn Korean! (Simte)",
-        img: study
+        img: study,
+        endPoint:'SimteToKorean'
     }
 ];

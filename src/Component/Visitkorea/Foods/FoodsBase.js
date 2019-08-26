@@ -39,6 +39,7 @@ export default function FoodsBase() {
     return (
         <TitleBarBase>
             <MaterialTable
+                style={{marginTop:60}}
                 title="Foods Dictionary"
                 columns={columns}
                 data={data}
