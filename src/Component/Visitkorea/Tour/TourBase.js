@@ -7,6 +7,7 @@ import TourBanner from './TourBanner'
 import TourSearch from './TourSearch'
 import TourImgHandler from '../../../Resources/Img/Tour/TourImgHandler'
 import TourJson from '../../../Resources/Contents/Tour';
+import DialogBase from '../../Dialog/Base'
 
 export default withStyles(styles)(class TourBase extends React.Component {
     state = {
@@ -34,13 +35,17 @@ export default withStyles(styles)(class TourBase extends React.Component {
     render() {
         const {classes} = this.props;
         return (
-            <TitleBarBase>
-                <TourTopScreen classes={classes}/>
-                <TourSearch classes={classes} search={this.handleSearchFieldChange}/>
-                <TourBanner classes={classes} items={this.state.items} itemsSize={this.state.itemsSize}
-                            TourImgHandler={TourImgHandler}/>
-                <p>출처 : 한국관광공사</p>
-            </TitleBarBase>
+            <DialogBase
+                render={({HandleClickOpen}) => (
+                    <TitleBarBase>
+                        <TourTopScreen classes={classes}/>
+                        <TourSearch classes={classes} search={this.handleSearchFieldChange}/>
+                        <TourBanner classes={classes} items={this.state.items} itemsSize={this.state.itemsSize}
+                                    TourImgHandler={TourImgHandler} HandleClickOpen={HandleClickOpen}/>
+                        <p>출처 : 한국관광공사</p>
+                    </TitleBarBase>
+                )}
+            />
         );
     }
 })

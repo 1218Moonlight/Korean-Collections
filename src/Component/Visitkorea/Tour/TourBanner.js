@@ -38,7 +38,7 @@ export default class TourBanner extends React.Component {
     };
 
     render() {
-        const {classes, items, TourImgHandler} = this.props;
+        const {classes, items, TourImgHandler, HandleClickOpen} = this.props;
         const target = items.slice(this.state.start, this.state.end);
 
         return (
@@ -67,7 +67,7 @@ export default class TourBanner extends React.Component {
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button size="small" color="primary">
+                                    <Button onClick={HandleClickOpen} data-value={JSON.stringify(item)} size="small" color="primary">
                                         Learn More
                                     </Button>
                                 </CardActions>

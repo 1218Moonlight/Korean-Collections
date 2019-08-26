@@ -12,9 +12,15 @@ export const styles = theme => ({
     },
     borderDiv: {
         marginTop: theme.spacing(4),
-        paddingTop: theme.spacing(2),
+        paddingTop: theme.spacing(4),
         borderTop: `1px solid ${theme.palette.divider}`,
-        paddingBottom: theme.spacing(2),
-        marginBottom: theme.spacing(4),
+        // paddingBottom: theme.spacing(2),
+        // marginBottom: theme.spacing(4),
+    },
+    dialog:{
+        margin: 100,
+        [theme.breakpoints.down('xs')]: {
+            margin: 30
+        },
     }
 });

@@ -1,5 +1,6 @@
 [
   {
+    "type": 3,
     "이름": "Grevin Seoul Museum (서울 그레뱅 뮤지엄)",
     "우편번호": "04523",
     "전화명": "",
@@ -26,6 +27,7 @@
     "imgName": "Grevin Seoul Museum (서울 그레뱅 뮤지엄)1.jpg"
   },
   {
+    "type": 3,
     "이름": "Gyujanggak Library of Seoul National University (서울대학교 규장각)",
     "우편번호": "08826",
     "전화명": "",
@@ -52,6 +54,7 @@
     "imgName": "Gyujanggak Library of Seoul National University (서울대학교 규장각)1.jpg"
   },
   {
+    "type": 3,
     "이름": "Jeongdok Library (서울특별시교육청 정독도서관)",
     "우편번호": "03055",
     "전화명": "",
@@ -78,6 +81,7 @@
     "imgName": "Jeongdok Library (서울특별시교육청 정독도서관)1.jpg"
   },
   {
+    "type": 3,
     "이름": "Museum of Art, Seoul National University (서울대학교미술관)",
     "우편번호": "08826",
     "전화명": "",
@@ -104,6 +108,7 @@
     "imgName": "Museum of Art, Seoul National University (서울대학교미술관)1.jpg"
   },
   {
+    "type": 3,
     "이름": "Namsan Library (서울특별시교육청 남산도서관)",
     "우편번호": "04340",
     "전화명": "",
@@ -130,6 +135,7 @@
     "imgName": "Namsan Library (서울특별시교육청 남산도서관)1.jpg"
   },
   {
+    "type": 3,
     "이름": "National Museum of Modern and Contemporary Art, Seoul [MMCA Seoul] (국립현대미술관 (서울관))",
     "우편번호": "03062",
     "전화명": "",
@@ -156,6 +162,7 @@
     "imgName": "National Museum of Modern and Contemporary Art, Seoul [MMCA Seoul] (국립현대미술관 (서울관))1.jpg"
   },
   {
+    "type": 3,
     "이름": "Palais De Seoul (팔레 드 서울)",
     "우편번호": "03044",
     "전화명": "",
@@ -182,6 +189,7 @@
     "imgName": "Palais De Seoul (팔레 드 서울)1.jpg"
   },
   {
+    "type": 3,
     "이름": "Seoul Action School (Martial Arts Center) (서울액션스쿨 (마샬아트센터))",
     "우편번호": "10859",
     "전화명": "",
@@ -208,6 +216,7 @@
     "imgName": "Seoul Action School (Martial Arts Center) (서울액션스쿨 (마샬아트센터))1.jpg"
   },
   {
+    "type": 3,
     "이름": "Seoul Animation Center (서울애니메이션센터)",
     "우편번호": "04628",
     "전화명": "",
@@ -234,6 +243,7 @@
     "imgName": "Seoul Animation Center (서울애니메이션센터)1.jpg"
   },
   {
+    "type": 3,
     "이름": "Seoul Art Center Gongpyeong Gallery (서울아트센터 공평갤러리)",
     "우편번호": "03163",
     "전화명": "",
@@ -260,6 +270,7 @@
     "imgName": "Seoul Art Center Gongpyeong Gallery (서울아트센터 공평갤러리)1.jpg"
   },
   {
+    "type": 3,
     "이름": "Seoul Center for National Intangible Cultural Asset (서울국가무형문화재전수회관)",
     "우편번호": "06153",
     "전화명": "Seoul Center for Important Intangible Cultural Assets",
@@ -286,6 +297,7 @@
     "imgName": "Seoul Center for National Intangible Cultural Asset (서울국가무형문화재전수회관)1.jpg"
   },
   {
+    "type": 3,
     "이름": "Seoul Children's Museum (서울상상나라)",
     "우편번호": "04991",
     "전화명": "",
@@ -312,6 +324,7 @@
     "imgName": "Seoul Children's Museum (서울상상나라)1.jpg"
   },
   {
+    "type": 3,
     "이름": "Seoul Metropolitan Library (서울도서관)",
     "우편번호": "04524",
     "전화명": "",
