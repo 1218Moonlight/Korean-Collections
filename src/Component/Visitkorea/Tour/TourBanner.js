@@ -5,31 +5,82 @@ import Grid from '@material-ui/core/Grid'
 import Container from '@material-ui/core/Container'
 import CardHeader from '@material-ui/core/CardHeader'
 import CardMedia from '@material-ui/core/CardMedia'
+import CardActions from '@material-ui/core/CardActions'
+import Button from '@material-ui/core/Button'
+import Typography from '@material-ui/core/Typography';
 
-export default function TourBanner(props) {
-    const {classes, TourImgHandler, TourJson} = props;
-    return (
-        <Container className={classes.TopBannerContainer} fixed>
-            <Grid justify={'center'} container spacing={2}>
-                {TourJson.map((item, index) => (
-                    <Grid key={index} item xs={8} md={8}>
-                        <Card>
-                            <CardHeader
-                                title={item.이름}
-                                subheader={item.주소}
-                            />
-                            <CardMedia
-                                className={classes.media}
-                                image={TourImgHandler(item.imgName)}
-                                title={item.이름}
-                            />
-                            <CardContent>
+export default class TourBanner extends React.Component {
+    state = {
+        page: 1,
+        start: 0,
+        end: 8,
+        collectionsCount: 8,
+    };
 
-                            </CardContent>
-                        </Card>
-                    </Grid>
-                ))}
-            </Grid>
-        </Container>
-    )
+    handleChangeIndexUp = () => {
+        if (this.props.itemsSize > this.state.page * this.state.collectionsCount) {
+            this.setState({
+                page: this.state.page + 1,
+                start: this.state.start + this.state.collectionsCount,
+                end: this.state.end + this.state.collectionsCount
+            })
+        }
+    };
+
+    handleChangeIndexDown = () => {
+        if (this.state.start !== 0) {
+            this.setState({
+                page: this.state.page - 1,
+                start: this.state.start - this.state.collectionsCount,
+                end: this.state.end - this.state.collectionsCount
+            })
+        }
+    };
+
+    render() {
+        const {classes, items, TourImgHandler} = this.props;
+        const target = items.slice(this.state.start, this.state.end);
+
+        return (
+            <Container className={classes.TopBannerContainer} fixed>
+                <div align="center">
+                    <Button onClick={this.handleChangeIndexDown}>BEFOR</Button>
+                    <Button color={'primary'}>{this.state.page}</Button>
+                    <Button onClick={this.handleChangeIndexUp}>NEXT</Button>
+                </div>
+                <Grid justify={'center'} container spacing={2}>
+                    {target.map((item, index) => (
+                        <Grid key={index} item xs={10} md={3}>
+                            <Card style={{width: 300}} raised>
+                                <marquee>
+                                    <CardHeader
+                                        subheader={item.이름}
+                                    />
+                                </marquee>
+                                <CardMedia
+                                    className={classes.media}
+                                    image={TourImgHandler(item.imgName)}
+                                    title={item.이름}/>
+                                <CardContent>
+                                    <Typography variant="body2" color="textSecondary" component="p">
+                                        {item.유산구분}
+                                    </Typography>
+                                </CardContent>
+                                <CardActions>
+                                    <Button size="small" color="primary">
+                                        Learn More
+                                    </Button>
+                                </CardActions>
+                            </Card>
+                        </Grid>
+                    ))}
+                </Grid>
+                <div align="center">
+                    <Button onClick={this.handleChangeIndexDown}>BEFOR</Button>
+                    <Button color={'primary'}>{this.state.page}</Button>
+                    <Button onClick={this.handleChangeIndexUp}>NEXT</Button>
+                </div>
+            </Container>
+        )
+    }
 }

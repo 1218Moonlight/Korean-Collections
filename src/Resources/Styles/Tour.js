@@ -9,7 +9,7 @@ export const styles = theme => ({
         height:400,
     },
     TopBannerContainer: {
-        backgroundColor:'#00FF00',
+
     },
     TopSearchTextField: {
         paddingTop: theme.spacing(2),
@@ -17,6 +17,7 @@ export const styles = theme => ({
     },
     media: {
         height: 0,
-        paddingTop: '56.25%', // 16:9
+        // paddingTop: '56.25%',
+        paddingTop: '70%'
     }
 });
