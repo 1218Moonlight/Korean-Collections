@@ -20,7 +20,7 @@ export default withStyles(styles)(class TourBase extends React.Component {
         let collections = [];
 
         Object.keys(TourJson).forEach(index => {
-            let title = TourJson[index].이름.toLowerCase();
+            let title = TourJson[index].fullName.toLowerCase();
             if (title.indexOf(searchText) !== -1) {
                 collections.push(TourJson[index])
             }

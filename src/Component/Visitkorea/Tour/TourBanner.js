@@ -8,6 +8,7 @@ import CardMedia from '@material-ui/core/CardMedia'
 import CardActions from '@material-ui/core/CardActions'
 import Button from '@material-ui/core/Button'
 import Typography from '@material-ui/core/Typography';
+import TourPagination from './TourPagination'
 
 export default class TourBanner extends React.Component {
     state = {
@@ -43,31 +44,29 @@ export default class TourBanner extends React.Component {
 
         return (
             <Container className={classes.TopBannerContainer} fixed>
-                <div align="center">
-                    <Button onClick={this.handleChangeIndexDown}>BEFOR</Button>
-                    <Button color={'primary'}>{this.state.page}</Button>
-                    <Button onClick={this.handleChangeIndexUp}>NEXT</Button>
-                </div>
+                <TourPagination handleChangeIndexDown={this.handleChangeIndexDown}
+                                handleChangeIndexUp={this.handleChangeIndexUp} page={this.state.page}/>
                 <Grid justify={'center'} container spacing={2}>
                     {target.map((item, index) => (
                         <Grid key={index} item xs={11} md={3}>
                             <Card style={{width: 300}} raised>
                                 <marquee>
                                     <CardHeader
-                                        subheader={item.이름}
+                                        subheader={item.enName}
                                     />
                                 </marquee>
                                 <CardMedia
                                     className={classes.media}
                                     image={TourImgHandler(item.imgName)}
-                                    title={item.이름}/>
+                                    title={item.enName}/>
                                 <CardContent>
                                     <Typography variant="body2" color="textSecondary" component="p">
-                                        {item.유산구분}
+                                        {item.address}
                                     </Typography>
                                 </CardContent>
                                 <CardActions>
-                                    <Button onClick={HandleClickOpen} data-value={JSON.stringify(item)} size="small" color="primary">
+                                    <Button onClick={HandleClickOpen} data-value={JSON.stringify(item)} size="small"
+                                            color="primary">
                                         Learn More
                                     </Button>
                                 </CardActions>
@@ -75,11 +74,8 @@ export default class TourBanner extends React.Component {
                         </Grid>
                     ))}
                 </Grid>
-                <div align="center">
-                    <Button onClick={this.handleChangeIndexDown}>BEFOR</Button>
-                    <Button color={'primary'}>{this.state.page}</Button>
-                    <Button onClick={this.handleChangeIndexUp}>NEXT</Button>
-                </div>
+                <TourPagination handleChangeIndexDown={this.handleChangeIndexDown}
+                                handleChangeIndexUp={this.handleChangeIndexUp} page={this.state.page}/>
             </Container>
         )
     }
