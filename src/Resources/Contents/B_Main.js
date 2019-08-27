@@ -11,7 +11,7 @@ export const items = [
     {
         title: "Explore food!",
         img: toppokki,
-        endPoint:'Collections'
+        endPoint:'Foods'
     },
     {
         title: "Let's learn Korean! (Simte)",

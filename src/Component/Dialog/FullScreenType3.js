@@ -18,17 +18,16 @@ export default function FullScreenType3(props) { // Notice Dialog
                         <CloseIcon/>
                     </IconButton>
                     <Typography variant="body2" display="block" gutterBottom className={classes.title}>
-                        {item.enName}
+                        {item.title}
                     </Typography>
                 </Toolbar>
             </AppBar>
             <Container className={classes.container} fixed>
-                <Typography variant="body2" display="block" gutterBottom className={classes.borderDiv}>
-                    {item.lc}
-                </Typography>
-                <Typography variant="body2" display="block" gutterBottom className={classes.borderDiv}>
-                    {item.outline}
-                </Typography>
+                {item.info.map((i, index) => (
+                    <Typography key={index} variant="body1" display="block" gutterBottom className={classes.title}>
+                        {i}
+                    </Typography>
+                ))}
             </Container>
         </Dialog>
     )

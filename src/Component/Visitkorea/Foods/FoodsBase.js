@@ -10,11 +10,11 @@ export default function FoodsBase() {
 
     // let columns = [];
     // foods_info_json.root.header.header.map(h => (
-    //     columns.push({title: h._text, field: h._text})
+    //     columns.push({endPoint: h._text, field: h._text})
     // ));
 
     let columns = [
-        // {title: "Sortation", field: "sortation"},
+        // {endPoint: "Sortation", field: "sortation"},
         {title: "Name", field: "name"},
         {title: "Eng", field: "eng"},
         {title: "Info", field: "info"}
@@ -29,9 +29,9 @@ export default function FoodsBase() {
     // console.log(columns);
 
     // const columns = [
-    //     {title: 'Area', field: 'area'},
-    //     {title: 'Index', field: 'index'},
-    //     {title: 'Code', field: 'code'}
+    //     {endPoint: 'Area', field: 'area'},
+    //     {endPoint: 'Index', field: 'index'},
+    //     {endPoint: 'Code', field: 'code'}
     // ];
 
     // console.log(getXml2Json(foods_info_xml));

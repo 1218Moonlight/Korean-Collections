@@ -5,24 +5,23 @@ import {withStyles} from "@material-ui/core/styles/index";
 import TourTopScreen from './TourTopScreen'
 import TourBanner from './TourBanner'
 import TourSearch from './TourSearch'
-import TourImgHandler from '../../../Resources/Img/Tour/TourImgHandler'
-import TourJson from '../../../Resources/Contents/Tour';
 import DialogBase from '../../Dialog/Base'
-
+import {items} from '../../../Resources/Contents/Tour'
+import imgScreen from '../../../Resources/Img/tour/seoul-1477046_1280.jpg'
 export default withStyles(styles)(class TourBase extends React.Component {
     state = {
-        items: TourJson,
-        itemsSize: TourJson.length,
+        items: items,
+        itemsSize: items.length,
     };
 
     handleSearchFieldChange = (e) => {
         let searchText = e.target.value.toLowerCase();
         let collections = [];
 
-        Object.keys(TourJson).forEach(index => {
-            let title = TourJson[index].fullName.toLowerCase();
+        Object.keys(items).forEach(index => {
+            let title = items[index].title.toLowerCase();
             if (title.indexOf(searchText) !== -1) {
-                collections.push(TourJson[index])
+                collections.push(items[index])
             }
         });
 
@@ -38,10 +37,10 @@ export default withStyles(styles)(class TourBase extends React.Component {
             <DialogBase
                 render={({HandleClickOpen}) => (
                     <TitleBarBase>
-                        <TourTopScreen classes={classes}/>
+                        <TourTopScreen classes={classes} imgScreen={imgScreen}/>
                         <TourSearch classes={classes} search={this.handleSearchFieldChange}/>
                         <TourBanner classes={classes} items={this.state.items} itemsSize={this.state.itemsSize}
-                                    TourImgHandler={TourImgHandler} HandleClickOpen={HandleClickOpen}/>
+                                    HandleClickOpen={HandleClickOpen}/>
                         <p>출처 : 한국관광공사</p>
                     </TitleBarBase>
                 )}

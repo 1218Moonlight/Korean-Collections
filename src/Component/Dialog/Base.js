@@ -6,7 +6,6 @@ import FullScreenType0 from './FullScreenType0'
 import FullScreenType1 from './FullScreenType1'
 import FullScreenType3 from './FullScreenType3'
 import MovieBase from '../Movie/Base'
-import TourImgHandler from '../../Resources/Img/Tour/TourImgHandler'
 
 export default withStyles(styles)(class DialogBase extends React.Component {
     state = {
@@ -53,7 +52,7 @@ export default withStyles(styles)(class DialogBase extends React.Component {
                         HandleClickOpen: this.HandleClickOpen,
                     })}
                     <FullScreenType3 open={open} handleClose={this.HandleClose} item={value} classes={classes}
-                                     transaction={Transition} TourImgHandler={TourImgHandler}/>
+                                     transaction={Transition} />
                 </div>
             )
         } else { // Notice Dialog (Type Index 1)

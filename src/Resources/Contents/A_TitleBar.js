@@ -7,15 +7,15 @@ import LayersIcon from '@material-ui/icons/Layers';
 
 export const items = [
     [
-        {icon: <ShoppingCartIcon/>, title: "Home"},
-        // TODO: {icon: <ShoppingCartIcon/>, title: "Collections"},
+        {icon: <ShoppingCartIcon/>, endPoint: "Home", title:"Home"},
+        // TODO: {icon: <ShoppingCartIcon/>, endPoint: "Collections"},
     ],
     [
-        {icon: <TripOrigin/>, title: "Tour"},
-        {icon: <TripOrigin/>, title: "Foods"},
+        {icon: <TripOrigin/>, endPoint: "Tour", title: "Korean Tour"},
+        {icon: <TripOrigin/>, endPoint: "Foods", title: "Korean Foods"},
     ],
     [
-        {icon: <LayersIcon/>, title: "SimteToKorean"},
-        {icon: <PeopleIcon/>, title: "Contact"},
+        {icon: <LayersIcon/>, endPoint: "SimteToKorean", title: "learn Korean [Simte]"},
+        {icon: <PeopleIcon/>, endPoint: "Contact", title: "Contact Us"},
     ]
 ];

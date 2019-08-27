@@ -13,7 +13,7 @@ export default function MenuLists(props) {
             {items.map((item, index) => (
                 <React.Fragment key={index}>
                     {item.map((i, index) => (
-                        <Link key={index} href={'#/' + i.title} color="inherit" variant="body2" noWrap>
+                        <Link key={index} href={'#/' + i.endPoint} color="inherit" variant="body2" noWrap>
                             <ListItem button key={index}>
                                 <ListItemIcon>{i.icon}</ListItemIcon>
                                 <ListItemText primary={i.title}/>
