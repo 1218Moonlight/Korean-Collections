@@ -7,7 +7,8 @@ import TourBanner from './TourBanner'
 import TourSearch from './TourSearch'
 import DialogBase from '../../Dialog/Base'
 import {items} from '../../../Resources/Contents/Tour'
-import imgScreen from '../../../Resources/Img/tour/seoul-1477046_1280.jpg'
+import imgScreen from '../../../Resources/Img/tour/seoul-1477046_1280.webp'
+
 export default withStyles(styles)(class TourBase extends React.Component {
     state = {
         items: items,

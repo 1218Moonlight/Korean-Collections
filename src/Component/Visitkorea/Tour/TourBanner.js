@@ -78,7 +78,7 @@ export default class TourBanner extends React.Component {
                                     ))}
                                 </AutoPlaySwipeableViews>
                                 <CardContent>
-                                    <Link href={item.site} color={"error"}>
+                                    <Link href={item.site} color={"error"} target={"_blank"}>
                                         <Typography variant="body2" component="p">
                                             {item.site}
                                         </Typography>
