@@ -30,6 +30,14 @@ import aquaPlanet2 from '../Img/tour/Aqua Planet 63  632.webp'
 import aquaPlanet3 from '../Img/tour/Aqua Planet 63  633.webp'
 import aquaPlanet4 from '../Img/tour/Aqua Planet 63  634.webp'
 import aquaPlanet5 from '../Img/tour/Aqua Planet 63  635.webp'
+import seoulForest10 from '../Img/tour/Seoul Forest 10.webp'
+import seoulForest19 from '../Img/tour/Seoul Forest 19.webp'
+import seoulForest21 from '../Img/tour/Seoul Forest 21.webp'
+import seoulForest28 from '../Img/tour/Seoul Forest 28.webp'
+import cultureStation11 from '../Img/tour/Culture Station Seoul 284   28411.webp'
+import cultureStation17 from '../Img/tour/Culture Station Seoul 284   28417.webp'
+import cultureStation20 from '../Img/tour/Culture Station Seoul 284   28420.webp'
+import cultureStation24 from '../Img/tour/Culture Station Seoul 284   28424.webp'
 
 const type = 3;
 
@@ -182,6 +190,47 @@ export const items = [
         ],
         imgs: [
             aquaPlanet2, aquaPlanet3, aquaPlanet4, aquaPlanet5
+        ]
+    },
+    {
+        // update : 2019-08-29
+        type: type,
+        title: "Seoul Forest", // (서울숲)
+        site: "http://seoulforest.or.kr/english",
+        info: [
+            "Opened on June 18, 2005, Seoul Forest had previously undergone a series of changes on Ttukseom (Ttuk Island). In the past, the forest had been a royal hunting ground for kings and served as a military inspection facility. However, in more recent decades, the area has served a wide variety of functions. Ttukseom initially served as a water-treatment facility, and later as a golf course, horse racing track, and eventually a sports park.",
+
+            "Consisting of five parks spread over 180,000 pyeong (approximately 595,000 ㎡) of land, Seoul Forest is an eco-friendly zone appreciated not only by the people of the city but also those visiting Seoul. Seoul Forest is rapidly developing into the premium city-park of Korea like Hyde Park in London and Central Park in New York.",
+
+            "* Culture and Arts Park (220,000㎡) \n" +
+            "Situated in the heart of Seoul Forest, the Cultural Art Park features Seoul Forest Square, Ttukseom Family Field, decorative flower beds, a visitor's center, a skate park, an outdoor stage, a waterside lounge (restaurant), an in-forest open space, an in-forest play ground and a water play area.",
+
+            "* Eco Forest (165,000㎡) \n" +
+            "The Ecological Forest, once an area covered by the Hangang River, has been transformed into an eco-forest connecting the Han and Jungnang-cheon (Jungnang stream). This natural habitat for wildlife animals is home to fallow deer, formosan deer, elks, chipmunks, mandarin ducks, mallards, spot-billed ducks and moorhens. There is also an observatory to help visitors get a better view of the local wildlife.",
+
+            "* Experiential Learning Park (85,000㎡)\n" +
+            "Occupying the structure of the former Ttukseom Water Treatment Facility, this refurbished educational area was established to house an insect botanical garden, a wild flower garden, a themed flower garden, an event ground and a surrounding protective forest.",
+
+            "* Marsh Plants Garden (70,000㎡) \n" +
+            "Making use of the local reservoir’s natural environment, the Wetlands Ecological Field contains a wetlands ecological management office, an ecological playground, an outdoor nature classroom, a bird observatory, a wetlands flower garden and a botanical garden fed with local, clear waters.",
+
+            "* Hangang Riverside Park (33,000㎡)\n" +
+            "Located southwest of Seoul Forest, this riverside area at the junction of the Hangang River and Jungnang-cheon features a waterfront park, a marina and a rest area."
+        ],
+        imgs: [
+            seoulForest10, seoulForest19, seoulForest21, seoulForest28
+        ]
+    },
+    {
+        // update : 2019-08-29
+        type: type,
+        title: "Culture Station Seoul 284", // (문화역 서울 284)
+        site: "https://www.seoul284.org/english/",
+        info: [
+            "Seoul Station has long served as the central terminal for many train routes in Korea. With the creation of a new station, the old Seoul Station building was recreated into Culture Station Seoul 284. While the architecture of the build itself is stunning, it hosts a variety of performances, exhibitions, and events."
+        ],
+        imgs: [
+            cultureStation11, cultureStation17, cultureStation20, cultureStation24
         ]
     },
 ];

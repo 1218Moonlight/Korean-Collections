@@ -7,6 +7,10 @@ export const styles = theme => ({
         backgroundPosition: 'center center',
         backgroundSize: 'cover',
         height:400,
+        [theme.breakpoints.down('xs')]: {
+            // width: '100% !important', // Overrides inline-style
+            height: 200,
+        },
     },
     TopBannerContainer: {
 
