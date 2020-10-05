@@ -12,7 +12,7 @@
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.0.1",
+    "react-scripts": "^3.4.3",
     "react-swipeable-views": "^0.13.9",
     "react-swipeable-views-utils": "^0.13.9",
     "react-youtube": "^7.12.0",
@@ -41,7 +41,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://kr-goods.shop",
+  "homepage": "http://kioryu.github.io/Korean-Collections",
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }
