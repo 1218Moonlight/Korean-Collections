@@ -3,19 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.1.3",
-    "@material-ui/icons": "^4.2.1",
-    "@material-ui/lab": "^4.0.0-alpha.23",
-    "clsx": "^1.0.4",
-    "material-table": "^1.48.0",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-ga": "^2.6.0",
-    "react-router-dom": "^5.0.1",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "clsx": "^1.1.1",
+    "material-table": "^1.69.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-ga": "^2.7.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.0.1",
-    "react-swipeable-views": "^0.13.3",
-    "react-swipeable-views-utils": "^0.13.3",
-    "react-youtube": "^7.9.0",
+    "react-swipeable-views": "^0.13.9",
+    "react-swipeable-views-utils": "^0.13.9",
+    "react-youtube": "^7.12.0",
     "xml-js": "^1.6.11"
   },
   "scripts": {
@@ -43,6 +43,6 @@
   },
   "homepage": "https://kr-goods.shop",
   "devDependencies": {
-    "gh-pages": "^2.0.1"
+    "gh-pages": "^2.2.0"
   }
 }
